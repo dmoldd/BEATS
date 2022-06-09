@@ -2,13 +2,13 @@
 
 // НАЗЫВАТЬ ЗАВИСИМЫЕ ФАЙЛЫ НУЖНО ТОЛЬКО ЧЕРЕЗ НИЖНЕЕ ПОДЧЕРКИВАНИЕ 
 
-@import url(layout/fonts.css);
+@import "layout/fonts.css";
 /* ДОБАВИЛ ШРИФТЫ  */
 
-@import url(layout/base.css);
+@import "layout/base.css";
 /* ПОДКЛЮЧИЛ CSS-ФАЙЛ С НАСТРОЙКАМИ ПО УМОЛЧАНИЮ */
 
-@import url(layout/normalize.css);
+@import "layout/normalize.css";
 /* ПОДКЛЮЧИЛ CSS-ФАЙЛ С НАСТРОЙКАМИ ПО УМОЛЧАНИЮ */
 
 @import "blocks/_header.scss";
