@@ -11,22 +11,15 @@
 @import url(layout/normalize.css);
 /* ПОДКЛЮЧИЛ CSS-ФАЙЛ С НАСТРОЙКАМИ ПО УМОЛЧАНИЮ */
 
-@import url();
-/* ЗАГЛУШКА */
+@import "blocks/_header.scss";
+/* ПОДКЛЮЧИЛ СТИЛИ ХЭДЕРА */
 
-.block {
-    height: 100px;
-    border: 1px solid #000;
-}
+@import "blocks/_footer.scss";
+/* ПОДКЛЮЧИЛ СТИЛИ ФУТЕРА*/
 
-.block__one {
-    width: 100px;
-    height: 100px;
-    background: red;
+@import "blocks/_hello.scss";
+/* ПОДКЛЮЧИЛ СТИЛИ БЛОКА ПРИВЕТСТВИЯ */
 
-    &:hover {
-        background: blue;
-    }
-}
+
 
 
