@@ -11,6 +11,9 @@
 @import "layout/normalize.css";
 /* ПОДКЛЮЧИЛ CSS-ФАЙЛ С НАСТРОЙКАМИ ПО УМОЛЧАНИЮ */
 
+@import "blocks/_mixin.scss";
+/* ПОДКЛЮЧИЛ ФАЙЛ С ПЕРЕМЕННЫМИ, МИКСИНАМИ И ПР. */
+
 @import "blocks/_header.scss";
 /* ПОДКЛЮЧИЛ СТИЛИ ХЭДЕРА */
 
