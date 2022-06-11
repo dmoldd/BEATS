@@ -13,7 +13,9 @@
         line-height: 25px;
         max-width: 320px;
         margin-top: 36px;
-        margin-bottom: 42px;
+    }
+    button {
+        margin-top: 42px;
     }
     .hello__left--properties {
         padding-top: 63px;
@@ -21,6 +23,7 @@
         flex-direction: row;
 
         .hello__left--properties--item {
+            margin-right: 15px;
             display: flex;
             font-family: 'Alegreya Sans';
             font-style: normal;
@@ -28,15 +31,28 @@
             font-size: 21px;
             color: #292929;
             img {
-                max-height: 50%;
+                max-height: 100%;
             }
             p{
                 max-width: 130px;
                 margin-top: 8px;
                 margin-left: 20px;
+                font-family: 'Play';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 18px;
+                color: #292929;
             }
         }
     }
     
+}
+
+.hello__right {
+    img {
+        width: 130%;
+        // margin-left: -80px;
+    }
 }
 
