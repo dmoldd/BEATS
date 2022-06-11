@@ -150,7 +150,17 @@ button {
   margin-top: 36px;
   margin-bottom: 42px;
 }
-.hello__left .hello__left--properties--item {
+.hello__left .hello__left--properties {
+  padding-top: 63px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.hello__left .hello__left--properties .hello__left--properties--item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -159,6 +169,14 @@ button {
   font-weight: 400;
   font-size: 21px;
   color: #292929;
+}
+.hello__left .hello__left--properties .hello__left--properties--item img {
+  max-height: 50%;
+}
+.hello__left .hello__left--properties .hello__left--properties--item p {
+  max-width: 130px;
+  margin-top: 8px;
+  margin-left: 20px;
 }
 
 /* ПОДКЛЮЧИЛ СТИЛИ БЛОКА ПРИВЕТСТВИЯ */
