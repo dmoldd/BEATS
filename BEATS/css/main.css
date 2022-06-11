@@ -1,7 +1,63 @@
 @charset "UTF-8";
+@import "layout/base.css";
+@import "layout/normalize.css";
+@import "layout/fonts.css";
 /* ПЕРЕМЕННАЯ "ЦВЕТ ТЕКСТА" */
 /* МИКСИН "ШРИФТ НАВИГАЦИИ" */
-/* ДОБАВИТЬ ТАКУЮ ШТУКУ: ЕСЛИ ЗАГОЛОВОК ТАКОГО-ТО УРОВНЯ, ТО СТИЛИ ТАКИЕ-ТО */
+h1 {
+  max-width: 400px;
+  font-family: "Play";
+  /* "ШРИФТ ЗАГОЛОВКОВ H1" */
+  font-style: normal;
+  /* "ШРИФТ ЗАГОЛОВКОВ H1" */
+  font-weight: 700;
+  /* "ШРИФТ ЗАГОЛОВКОВ H1" */
+  font-size: 48px;
+  /* "ШРИФТ ЗАГОЛОВКОВ H1" */
+  line-height: 52px;
+  /* "ШРИФТ ЗАГОЛОВКОВ H1" */
+}
+
+h2 {
+  font-family: "Play";
+  /* "ШРИФТ ЗАГОЛОВКОВ H2" */
+  font-style: normal;
+  /* "ШРИФТ ЗАГОЛОВКОВ H2" */
+  font-weight: 700;
+  /* "ШРИФТ ЗАГОЛОВКОВ H2" */
+  font-size: 48px;
+  /* "ШРИФТ ЗАГОЛОВКОВ H2" */
+  line-height: 52px;
+  /* "ШРИФТ ЗАГОЛОВКОВ H2" */
+}
+
+button {
+  background: #E01F3D;
+  /* НАСТРОЙКИ КНОПКИ */
+  border-radius: 100px;
+  /* НАСТРОЙКИ КНОПКИ */
+  padding-top: 22px;
+  /* НАСТРОЙКИ КНОПКИ */
+  padding-bottom: 22px;
+  /* НАСТРОЙКИ КНОПКИ */
+  padding-left: 42px;
+  /* НАСТРОЙКИ КНОПКИ */
+  padding-right: 42px;
+  /* НАСТРОЙКИ КНОПКИ */
+  font-family: "Play";
+  /* НАСТРОЙКИ КНОПКИ */
+  font-style: normal;
+  /* НАСТРОЙКИ КНОПКИ */
+  font-weight: 700;
+  /* НАСТРОЙКИ КНОПКИ */
+  font-size: 16px;
+  /* НАСТРОЙКИ КНОПКИ */
+  line-height: 18px;
+  /* НАСТРОЙКИ КНОПКИ */
+  color: #FFFFFF;
+  /* НАСТРОЙКИ КНОПКИ */
+}
+
 /* ПОДКЛЮЧИЛ ФАЙЛ С ПЕРЕМЕННЫМИ, МИКСИНАМИ И ПР. */
 .header {
   display: -webkit-box;
@@ -14,9 +70,24 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  margin-top: 25px;
 }
 
-.navigation__list {
+.navigation {
+  /* МИКСИН "ШРИФТ НАВИГАЦИИ" */
+  font-family: "Alegreya Sans";
+  /* МИКСИН "ШРИФТ НАВИГАЦИИ" */
+  font-style: normal;
+  /* МИКСИН "ШРИФТ НАВИГАЦИИ" */
+  font-weight: 400;
+  /* МИКСИН "ШРИФТ НАВИГАЦИИ" */
+  font-size: 18px;
+  /* МИКСИН "ШРИФТ НАВИГАЦИИ" */
+  line-height: 20px;
+  /* МИКСИН "ШРИФТ НАВИГАЦИИ" */
+  margin-top: 11px;
+}
+.navigation .navigation__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,9 +99,68 @@
       -ms-flex-direction: row;
           flex-direction: row;
 }
+.navigation .navigation__list--item {
+  margin-right: 28px;
+}
+
+.address {
+  margin-top: 11px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  /* МИКСИН "ШРИФТ КОЛОНКИ С ТЕЛЕФОНОМ" */
+  font-family: "Play";
+  /* МИКСИН "ШРИФТ КОЛОНКИ С ТЕЛЕФОНОМ" */
+  font-style: normal;
+  /* МИКСИН "ШРИФТ КОЛОНКИ С ТЕЛЕФОНОМ" */
+  font-weight: 400;
+  /* МИКСИН "ШРИФТ КОЛОНКИ С ТЕЛЕФОНОМ" */
+  font-size: 18px;
+  /* МИКСИН "ШРИФТ КОЛОНКИ С ТЕЛЕФОНОМ" */
+  line-height: 18px;
+  /* МИКСИН "ШРИФТ КОЛОНКИ С ТЕЛЕФОНОМ" */
+}
+.address div {
+  margin-right: 7px;
+}
 
 /* ПОДКЛЮЧИЛ СТИЛИ ХЭДЕРА */
 /* ПОДКЛЮЧИЛ СТИЛИ ФУТЕРА*/
+.hello {
+  margin-top: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hello__left p {
+  font-family: "Alegreya Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  max-width: 320px;
+  margin-top: 36px;
+  margin-bottom: 42px;
+}
+.hello__left .hello__left--properties--item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Alegreya Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  color: #292929;
+}
+
 /* ПОДКЛЮЧИЛ СТИЛИ БЛОКА ПРИВЕТСТВИЯ */
 /* ПОДКЛЮЧИЛ СТИЛИ БЛОКА ЗАКАЗА ТОВАРА */
 /* ПОДКЛЮЧИЛ СТИЛИ БЛОКА КОМАНДЫ КОМПАНИИ */

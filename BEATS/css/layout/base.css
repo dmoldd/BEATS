@@ -2,7 +2,7 @@
 	margin: 0 auto;
 	width: 100%;
 	height: 100%;
-	max-width: 1141px;
+	max-width: 915px;
 }
 
 
@@ -27,6 +27,7 @@ img {
 	min-height: 100%;
 	display: flex;
 	flex-direction: column;
+	background: #F5F5F5;
 }
 
 .wrapper_content {
