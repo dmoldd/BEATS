@@ -1,9 +1,9 @@
 @charset "UTF-8";
-@import "layout/fonts.css";
+@import url("layout/fonts.css");
 /* ДОБАВИЛ ШРИФТЫ  */
-@import "layout/base.css";
+@import url("layout/base.css");
 /* ПОДКЛЮЧИЛ CSS-ФАЙЛ С НАСТРОЙКАМИ ПО УМОЛЧАНИЮ */
-@import "layout/normalize.css";
+@import url("layout/normalize.css");
 /* ПОДКЛЮЧИЛ CSS-ФАЙЛ С НАСТРОЙКАМИ ПО УМОЛЧАНИЮ */
 /* ПЕРЕМЕННАЯ "ЦВЕТ ТЕКСТА" */
 /* МИКСИН "ШРИФТ НАВИГАЦИИ" */
