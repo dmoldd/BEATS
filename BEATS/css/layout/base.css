@@ -30,13 +30,17 @@ img {
 	background: #F5F5F5;
 }
 
+.wrapper__white {
+	background: #FFFFFF;
+}
+
 .wrapper_content {
 	flex: 1;
 	position: relative;
 }
 
 .wrapper__content--main {
-	background: url("../../img/background.png");
+
 	background-repeat: no-repeat;
 }
 

@@ -195,8 +195,44 @@ button {
 /* ПОДКЛЮЧИЛ СТИЛИ БЛОКА ПРИВЕТСТВИЯ */
 /* ПОДКЛЮЧИЛ СТИЛИ БЛОКА ЗАКАЗА ТОВАРА */
 /* ПОДКЛЮЧИЛ СТИЛИ БЛОКА КОМАНДЫ КОМПАНИИ */
-.properties {
-  margin-top: 70px;
+.properties h2 {
+  padding-top: 70px;
+  text-align: center;
 }
-
+.properties p {
+  padding-top: 17px;
+  margin: 0 auto;
+  max-width: 590px;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #666666;
+}
+.properties .properties__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.properties .properties__items .properties__items--item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /* ПОДКЛЮЧИЛ СТИЛИ БЛОКА СВОЙСТВ ТОВАРА */
