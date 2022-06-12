@@ -1,0 +1,84 @@
+.order {
+    padding-top: 64px;
+    display: flex;
+    flex-direction: row;
+    .swipe {
+        align-self: center;
+    }
+    .swipe:nth-child(1){
+        margin-right: 30px;
+    }
+    .order__left {
+        margin-top: 29px;
+    }
+    .order__right {
+        margin-left: 62px;
+        .button__properties {
+                display: inline-block;
+                background: #9A9A9A;
+                border-radius: 4px;
+            img {
+                margin: 24px;
+            }
+        }
+        h3 {
+            margin-top: 35px;
+            max-width: 419px;
+            color: #292929;
+            margin-bottom: 40px;
+        }
+        p {
+            font-family: 'Play';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #666666;
+            max-width: 368px;
+        }
+        .order__right--options {
+            margin-top: 33px;
+            display: flex;
+            flex-direction: row;
+            .order__right--options--left {
+                margin-right: 86px;
+                .selected {
+                    font-family: 'Play';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #000000;
+                }
+            }
+            .order__right--options--right {
+                .selected {
+                    font-family: 'Play';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #000000;
+                }
+            }
+        }
+        .order__right--priceorder {
+            margin-top: 25px;
+            display: flex;
+            .order__right--priceorder--left{
+                p {
+
+                    font-family: 'Play';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 36px;
+                    line-height: 60px;
+                    color: #151515;
+                }
+            }
+            .order__right--priceorder--right{
+                margin-left: 15px;
+            }
+         }
+    }
+}

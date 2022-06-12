@@ -58,17 +58,30 @@ button {
   /* НАСТРОЙКИ КНОПКИ */
 }
 
+h3 {
+  font-family: "Play";
+  /* "ШРИФТ ЗАГОЛОВКОВ H3" */
+  font-style: normal;
+  /* "ШРИФТ ЗАГОЛОВКОВ H3" */
+  font-weight: 700;
+  /* "ШРИФТ ЗАГОЛОВКОВ H3" */
+  font-size: 36px;
+  /* "ШРИФТ ЗАГОЛОВКОВ H3" */
+  line-height: 42px;
+  /* "ШРИФТ ЗАГОЛОВКОВ H3" */
+}
+
 h4 {
   font-family: "Play";
-  /* "ШРИФТ ЗАГОЛОВКОВ H42" */
+  /* "ШРИФТ ЗАГОЛОВКОВ H4" */
   font-style: normal;
-  /* "ШРИФТ ЗАГОЛОВКОВ H42" */
+  /* "ШРИФТ ЗАГОЛОВКОВ H4" */
   font-weight: 700;
-  /* "ШРИФТ ЗАГОЛОВКОВ H42" */
+  /* "ШРИФТ ЗАГОЛОВКОВ H4" */
   font-size: 24px;
-  /* "ШРИФТ ЗАГОЛОВКОВ H42" */
+  /* "ШРИФТ ЗАГОЛОВКОВ H4" */
   line-height: 28px;
-  /* "ШРИФТ ЗАГОЛОВКОВ H42" */
+  /* "ШРИФТ ЗАГОЛОВКОВ H4" */
 }
 
 /* ПОДКЛЮЧИЛ ФАЙЛ С ПЕРЕМЕННЫМИ, МИКСИНАМИ И ПР. */
@@ -206,7 +219,112 @@ h4 {
 }
 
 /* ПОДКЛЮЧИЛ СТИЛИ БЛОКА ПРИВЕТСТВИЯ */
+.order {
+  padding-top: 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.order .swipe {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+.order .swipe:nth-child(1) {
+  margin-right: 30px;
+}
+.order .order__left {
+  margin-top: 29px;
+}
+.order .order__right {
+  margin-left: 62px;
+}
+.order .order__right .button__properties {
+  display: inline-block;
+  background: #9A9A9A;
+  border-radius: 4px;
+}
+.order .order__right .button__properties img {
+  margin: 24px;
+}
+.order .order__right h3 {
+  margin-top: 35px;
+  max-width: 419px;
+  color: #292929;
+  margin-bottom: 40px;
+}
+.order .order__right p {
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #666666;
+  max-width: 368px;
+}
+.order .order__right .order__right--options {
+  margin-top: 33px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.order .order__right .order__right--options .order__right--options--left {
+  margin-right: 86px;
+}
+.order .order__right .order__right--options .order__right--options--left .selected {
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+.order .order__right .order__right--options .order__right--options--right .selected {
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+.order .order__right .order__right--priceorder {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.order .order__right .order__right--priceorder .order__right--priceorder--left p {
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 60px;
+  color: #151515;
+}
+.order .order__right .order__right--priceorder .order__right--priceorder--right {
+  margin-left: 15px;
+}
+
 /* ПОДКЛЮЧИЛ СТИЛИ БЛОКА ЗАКАЗА ТОВАРА */
+h2 {
+  padding-top: 47px;
+  text-align: center;
+}
+
+.team__members {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 /* ПОДКЛЮЧИЛ СТИЛИ БЛОКА КОМАНДЫ КОМПАНИИ */
 .properties {
   padding-bottom: 100px;

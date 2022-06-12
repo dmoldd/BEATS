@@ -67,13 +67,23 @@ $text-color: #292929;     /* ПЕРЕМЕННАЯ "ЦВЕТ ТЕКСТА" */
     }
 }
 
+@if (h3 == true) else {
+    h3 {
+        font-family: 'Play';    /* "ШРИФТ ЗАГОЛОВКОВ H3" */
+        font-style: normal;     /* "ШРИФТ ЗАГОЛОВКОВ H3" */
+        font-weight: 700;       /* "ШРИФТ ЗАГОЛОВКОВ H3" */
+        font-size: 36px;        /* "ШРИФТ ЗАГОЛОВКОВ H3" */
+        line-height: 42px;      /* "ШРИФТ ЗАГОЛОВКОВ H3" */
+    }
+}
+
 @if (h4 == true) else {
     h4 {
-        font-family: 'Play';    /* "ШРИФТ ЗАГОЛОВКОВ H42" */
-        font-style: normal;     /* "ШРИФТ ЗАГОЛОВКОВ H42" */
-        font-weight: 700;       /* "ШРИФТ ЗАГОЛОВКОВ H42" */
-        font-size: 24px;        /* "ШРИФТ ЗАГОЛОВКОВ H42" */
-        line-height: 28px;      /* "ШРИФТ ЗАГОЛОВКОВ H42" */
+        font-family: 'Play';    /* "ШРИФТ ЗАГОЛОВКОВ H4" */
+        font-style: normal;     /* "ШРИФТ ЗАГОЛОВКОВ H4" */
+        font-weight: 700;       /* "ШРИФТ ЗАГОЛОВКОВ H4" */
+        font-size: 24px;        /* "ШРИФТ ЗАГОЛОВКОВ H4" */
+        line-height: 28px;      /* "ШРИФТ ЗАГОЛОВКОВ H4" */
     }
 }
 
