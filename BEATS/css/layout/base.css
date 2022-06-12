@@ -34,6 +34,10 @@ img {
 	background: #FFFFFF;
 }
 
+.wrapper__beige {
+	background: #F8FAF9;
+}
+
 .wrapper_content {
 	flex: 1;
 	position: relative;
