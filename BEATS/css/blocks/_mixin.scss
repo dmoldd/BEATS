@@ -87,4 +87,14 @@ $text-color: #292929;     /* ПЕРЕМЕННАЯ "ЦВЕТ ТЕКСТА" */
     }
 }
 
+@if (h5 == true) else {
+    h5 {
+        font-family: 'Play';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        color: #292929;
+    }
+}
 
