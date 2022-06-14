@@ -1,3 +1,5 @@
+$blue: #F5F5F5;
+
 $text-color: #292929;     /* ПЕРЕМЕННАЯ "ЦВЕТ ТЕКСТА" */
 
 @mixin fontnav {                        /* МИКСИН "ШРИФТ НАВИГАЦИИ" */
@@ -54,8 +56,8 @@ $text-color: #292929;     /* ПЕРЕМЕННАЯ "ЦВЕТ ТЕКСТА" */
     button {
         background:#E01F3D;       /* НАСТРОЙКИ КНОПКИ */
         border-radius: 100px;       /* НАСТРОЙКИ КНОПКИ */
-        padding-top: 22px;          /* НАСТРОЙКИ КНОПКИ */
-        padding-bottom: 22px;       /* НАСТРОЙКИ КНОПКИ */
+        padding-top: 18px;          /* НАСТРОЙКИ КНОПКИ */
+        padding-bottom: 20px;       /* НАСТРОЙКИ КНОПКИ */
         padding-left: 42px;         /* НАСТРОЙКИ КНОПКИ */
         padding-right: 42px;        /* НАСТРОЙКИ КНОПКИ */
         font-family: 'Play';        /* НАСТРОЙКИ КНОПКИ */

@@ -1,0 +1,17 @@
+.features {
+    display: flex;
+    .features__item {
+        display: flex;
+        margin-right: 17px;
+        .feature__text {
+            max-width: 110px;
+            margin-left: 13px;
+        }
+        .feature__text:nth-child(2) {
+            max-width: 110px;
+        }
+        .feature__text:nth-child(2) {
+            max-width: 110px;
+        }
+    }
+}

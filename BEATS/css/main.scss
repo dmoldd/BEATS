@@ -16,7 +16,7 @@
 @import "blocks/_footer.scss";
 /* ПОДКЛЮЧИЛ СТИЛИ ФУТЕРА*/
 
-@import "blocks/_hello.scss";
+// @import "blocks/_hello.scss";
 /* ПОДКЛЮЧИЛ СТИЛИ БЛОКА ПРИВЕТСТВИЯ */
 
 @import "blocks/_order.scss";
@@ -27,5 +27,9 @@
 
 @import "blocks/_properties.scss";
 /* ПОДКЛЮЧИЛ СТИЛИ БЛОКА СВОЙСТВ ТОВАРА */
+
+@import "blocks/_hero.scss";
+
+@import "blocks/_features.scss";
 
 

@@ -36,9 +36,9 @@ button {
   /* НАСТРОЙКИ КНОПКИ */
   border-radius: 100px;
   /* НАСТРОЙКИ КНОПКИ */
-  padding-top: 22px;
+  padding-top: 18px;
   /* НАСТРОЙКИ КНОПКИ */
-  padding-bottom: 22px;
+  padding-bottom: 20px;
   /* НАСТРОЙКИ КНОПКИ */
   padding-left: 42px;
   /* НАСТРОЙКИ КНОПКИ */
@@ -98,56 +98,31 @@ h5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  margin-top: 25px;
 }
 
-.navigation {
-  /* МИКСИН "ШРИФТ НАВИГАЦИИ" */
-  font-family: "Alegreya Sans";
-  /* МИКСИН "ШРИФТ НАВИГАЦИИ" */
-  font-style: normal;
-  /* МИКСИН "ШРИФТ НАВИГАЦИИ" */
-  font-weight: 400;
-  /* МИКСИН "ШРИФТ НАВИГАЦИИ" */
-  font-size: 18px;
-  /* МИКСИН "ШРИФТ НАВИГАЦИИ" */
-  line-height: 20px;
-  /* МИКСИН "ШРИФТ НАВИГАЦИИ" */
-  margin-top: 11px;
-  margin-left: 20px;
-}
-.navigation .navigation__list {
+.menu__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-.navigation .navigation__list--item {
-  margin-right: 28px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.address {
-  margin-top: 11px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+.menu__item {
+  margin-right: 22px;
+}
+.menu__item:last-child {
+  margin-right: 0px;
+}
+
+address {
   /* МИКСИН "ШРИФТ КОЛОНКИ С ТЕЛЕФОНОМ" */
   font-family: "Play";
   /* МИКСИН "ШРИФТ КОЛОНКИ С ТЕЛЕФОНОМ" */
@@ -160,127 +135,23 @@ h5 {
   line-height: 18px;
   /* МИКСИН "ШРИФТ КОЛОНКИ С ТЕЛЕФОНОМ" */
 }
-.address div {
-  margin-right: 7px;
+
+.phone-number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.phone-number .phone-number__icon--element {
+  width: 12px;
+  height: 12px;
+  margin-right: 6px;
 }
 
 /* ПОДКЛЮЧИЛ СТИЛИ ХЭДЕРА */
 /* ПОДКЛЮЧИЛ СТИЛИ ФУТЕРА*/
-.hello {
-  margin-top: 90px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding-bottom: 74px;
-}
-
-.hello__left p {
-  font-family: "Alegreya Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 21px;
-  line-height: 25px;
-  max-width: 320px;
-  margin-top: 30px;
-}
-.hello__left button {
-  margin-top: 35px;
-}
-.hello__left .hello__left--properties {
-  padding-top: 63px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-.hello__left .hello__left--properties .hello__left--properties--item {
-  margin-right: 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-family: "Alegreya Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 21px;
-  color: #292929;
-}
-.hello__left .hello__left--properties .hello__left--properties--item img {
-  max-height: 100%;
-}
-.hello__left .hello__left--properties .hello__left--properties--item p {
-  max-width: 130px;
-  margin-top: 2px;
-  margin-left: 7px;
-  font-family: "Play";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 18px;
-  color: #292929;
-}
-.hello__left .hello__left--properties .hello__left--properties--item:nth-child(2) {
-  margin-left: 5px;
-  margin-right: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-family: "Alegreya Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 21px;
-  color: #292929;
-}
-.hello__left .hello__left--properties .hello__left--properties--item:nth-child(2) img {
-  max-height: 100%;
-}
-.hello__left .hello__left--properties .hello__left--properties--item:nth-child(2) p {
-  max-width: 130px;
-  margin-top: 2px;
-  margin-left: 7px;
-  font-family: "Play";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 18px;
-  color: #292929;
-}
-.hello__left .hello__left--properties .hello__left--properties--item:nth-child(3) {
-  margin-right: 15px;
-  margin-left: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-family: "Alegreya Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 21px;
-  color: #292929;
-}
-.hello__left .hello__left--properties .hello__left--properties--item:nth-child(3) img {
-  max-height: 100%;
-}
-.hello__left .hello__left--properties .hello__left--properties--item:nth-child(3) p {
-  max-width: 130px;
-  margin-top: 8px;
-  margin-left: 11px;
-  font-family: "Play";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 18px;
-  color: #292929;
-}
-
-.hello__right img {
-  width: 130%;
-}
-
 /* ПОДКЛЮЧИЛ СТИЛИ БЛОКА ПРИВЕТСТВИЯ */
 .order {
   padding-top: 64px;
@@ -493,3 +364,52 @@ h2 {
 }
 
 /* ПОДКЛЮЧИЛ СТИЛИ БЛОКА СВОЙСТВ ТОВАРА */
+.hero {
+  background: url("../img/hello/headphones.png") left 80% center no-repeat;
+  background-color: #F5F5F5;
+  min-height: 650px;
+  height: 100vh;
+}
+
+.hero__title-section {
+  margin-top: 95px;
+}
+.hero__title-section .hero__title-desc {
+  margin-top: 22px;
+  max-width: 321px;
+  font-family: "Alegreya Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  color: #292929;
+}
+.hero__title-section .button {
+  margin-top: 33px;
+}
+
+.hero__icons-section {
+  margin-top: 75px;
+}
+
+.features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.features .features__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 17px;
+}
+.features .features__item .feature__text {
+  max-width: 110px;
+  margin-left: 13px;
+}
+.features .features__item .feature__text:nth-child(2) {
+  max-width: 110px;
+}
+.features .features__item .feature__text:nth-child(2) {
+  max-width: 110px;
+}

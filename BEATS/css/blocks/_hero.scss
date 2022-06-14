@@ -1,0 +1,27 @@
+.hero {
+    background: url('../img/hello/headphones.png') left 80% center no-repeat;
+    background-color: $blue;
+    min-height: 650px;
+    height: 100vh;
+
+}
+.hero__title-section {
+    margin-top: 95px;
+    .hero__title-desc {
+        margin-top: 22px;
+        max-width: 321px;
+        font-family: 'Alegreya Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 25px;
+        color: #292929;
+    }
+    .button {
+        margin-top: 33px;
+    }
+}
+
+.hero__icons-section {
+    margin-top: 75px;
+}

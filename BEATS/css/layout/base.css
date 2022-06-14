@@ -7,7 +7,7 @@
 
 
 .maincontent {
-	margin-top: 125px;
+
 }
 
 html {
@@ -27,16 +27,10 @@ img {
 	min-height: 100%;
 	display: flex;
 	flex-direction: column;
-	background: #F5F5F5;
+	/* background: #F5F5F5; */
 }
 
-.wrapper__white {
-	background: #FFFFFF;
-}
 
-.wrapper__beige {
-	background: #F8FAF9;
-}
 
 .wrapper_content {
 	flex: 1;
@@ -45,7 +39,7 @@ img {
 
 .wrapper__content--main {
 
-	background-repeat: no-repeat;
+	/* background-repeat: no-repeat; */
 }
 
 a:hover {
@@ -63,7 +57,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	color: #000;
 	margin: 0;
-	background-color: #17191C;
+	/* background-color: #17191C; */
 }
 
 button {
