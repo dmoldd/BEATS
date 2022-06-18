@@ -1,0 +1,80 @@
+.rewiews {
+    align-items: center;
+    margin-bottom: 63px;
+}
+
+.rewiews__display {
+    background: #F8FAF9;
+    padding-top: 41px;
+    padding-bottom: 41px;
+    padding-left: 43px;
+    padding-right: 43px;
+    .rewiews__display--inner {
+        display: flex;
+        .rewiews__avatar {
+            .rewiews__avatar--img {
+                height: 264px;
+                width: 253px;
+            }
+        }
+        .rewiews__content {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left: 38px;
+            .rewiews__title {
+                margin-top: 37px;
+                align-self: flex-start;
+                text-align: left;
+            }
+            .rewiews__text {
+                margin-top: 24px;
+                max-width: 498px;
+                font-family: 'Play';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                display: flex;
+                align-items: flex-end;
+                color: #666666;
+            }
+            .rewiews__author {
+                margin-top: 38px;
+            }
+        }
+    }
+}
+
+.rewiews__switcher {
+    display: flex;
+    justify-content: center;
+    padding-top: 14px;
+    .interactive-avatar {
+        height: 80px;
+        width: 80px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+
+        border: 4px solid transparent;
+        &--active {
+            border-color: #E01F3D;
+        }
+        .interactive-avatar--img {
+            display: block;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+        .interactive-avatar--link {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: block;
+        }
+        
+    }
+}
