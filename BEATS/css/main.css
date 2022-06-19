@@ -127,84 +127,11 @@ address {
 /* ПОДКЛЮЧИЛ СТИЛИ ФУТЕРА*/
 /* ПОДКЛЮЧИЛ СТИЛИ БЛОКА ПРИВЕТСТВИЯ */
 .order__section {
+  padding-bottom: 85px;
   background: #181818;
 }
 .order__section .container h2 {
   color: #FFFFFF;
-}
-
-.form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.form__col {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  margin-right: 20px;
-}
-.form__col:last-child {
-  margin-right: 0px;
-}
-
-.form__row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 18px;
-}
-
-.form__block {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  margin-right: 20px;
-}
-.form__block:last-child {
-  margin-right: 0px;
-}
-
-.form__input {
-  width: 100%;
-  border: solid 3px transparent;
-  border-radius: 4px;
-  background: #FFFFFF;
-  padding-top: 17px;
-  padding-bottom: 17px;
-  padding-left: 13px;
-  padding-right: 13px;
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-}
-.form__input:focus {
-  border-color: #E01F3D;
-  outline: none;
-}
-.form__input--textarea {
-  height: 152px;
-  resize: none;
-}
-
-.form__title {
-  font-family: "Play";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: #FFFFFF;
-}
-
-.form__controls {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 /* ПОДКЛЮЧИЛ СТИЛИ БЛОКА ЗАКАЗА ТОВАРА */
@@ -549,6 +476,94 @@ h2 {
   display: block;
 }
 
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form__col {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-right: 20px;
+}
+.form__col:last-child {
+  margin-right: 0px;
+}
+
+.form__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 18px;
+}
+
+.form__block {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-right: 20px;
+}
+.form__block:last-child {
+  margin-right: 0px;
+}
+
+.form__input {
+  width: 100%;
+  border: solid 3px transparent;
+  border-radius: 4px;
+  background: #FFFFFF;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 13px;
+  padding-right: 13px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+.form__input:focus {
+  border-color: #E01F3D;
+  outline: none;
+}
+.form__input--textarea {
+  height: 152px;
+  resize: none;
+}
+
+.form__title {
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.form__controls {
+  margin-top: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+.form__controls:last-child {
+  margin-top: 2px;
+}
+
+.radio__checkbox {
+  margin-top: -15px;
+}
+
 .radio {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -591,6 +606,10 @@ h2 {
   display: block;
 }
 
+.radio__title {
+  margin-right: 20px;
+}
+
 button {
   background: #E01F3D;
   /* НАСТРОЙКИ КНОПКИ */
@@ -626,4 +645,9 @@ button {
   font-size: 16px;
   line-height: 19px;
   color: #FFFFFF;
+  padding-left: 0;
+}
+
+.form__buttons {
+  margin-top: 44px;
 }
