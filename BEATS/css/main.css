@@ -126,11 +126,12 @@ address {
 /* ПОДКЛЮЧИЛ СТИЛИ ХЭДЕРА */
 /* ПОДКЛЮЧИЛ СТИЛИ ФУТЕРА*/
 /* ПОДКЛЮЧИЛ СТИЛИ БЛОКА ПРИВЕТСТВИЯ */
-.order__section {
+.order {
   padding-bottom: 85px;
   background: #181818;
+  min-height: 650px;
 }
-.order__section .container h2 {
+.order .container h2 {
   color: #FFFFFF;
 }
 
@@ -252,6 +253,7 @@ h2 {
 
 /* ПОДКЛЮЧИЛ СТИЛИ БЛОКА СВОЙСТВ ТОВАРА */
 .hero {
+  padding-top: 24px;
   background: url("../img/hello/headphones.png") left 80% center no-repeat;
   background-color: #F5F5F5;
   min-height: 650px;
@@ -331,6 +333,7 @@ h2 {
 }
 
 .benefits {
+  min-height: 650px;
   margin-top: 55px;
   display: -webkit-box;
   display: -ms-flexbox;
