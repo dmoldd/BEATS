@@ -5,6 +5,11 @@
     &__checkbox {
         .radio__visible {
             border-radius: 0;
+            &:before {
+                background: url('../img/checkbox.svg') center center;
+                background-repeat: no-repeat;
+            }
+            
         }
     }
 }
