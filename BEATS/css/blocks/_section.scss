@@ -1,7 +1,10 @@
 .headline {
     display: flex;
     flex-direction: column;
+
     text-align: center;
+    // min-height: 650px;
+    
 
     .section__title {
         margin-top: 10px;
@@ -24,9 +27,15 @@
 
 .benefits {
     min-height: 650px;
-    margin-top: 55px;
+    margin-top: 135px;
+    margin-bottom: -80px;
     display: flex;
     justify-content: space-between;
+
+    ul {
+        margin-top: 63px;
+    }
+    
     .benefits__item {
         display: flex;
         flex-direction: column;
