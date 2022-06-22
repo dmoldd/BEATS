@@ -393,6 +393,9 @@ h2 {
   min-height: 650px;
   margin-top: 60px;
 }
+.rewiews .rewiews {
+  margin-top: 0px;
+}
 
 .rewiews__display {
   background: #F8FAF9;
