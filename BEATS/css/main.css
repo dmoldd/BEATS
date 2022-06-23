@@ -136,12 +136,6 @@ address {
 }
 
 /* ПОДКЛЮЧИЛ СТИЛИ БЛОКА ЗАКАЗА ТОВАРА */
-h2 {
-  padding-top: 47px;
-  text-align: center;
-  padding-bottom: 60px;
-}
-
 .team__members {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -327,9 +321,6 @@ h2 {
           flex-direction: column;
   text-align: center;
 }
-.benefits .headline .section__title {
-  margin-top: 10px;
-}
 .benefits .headline .headline__title {
   max-height: 52px;
 }
@@ -395,15 +386,21 @@ h2 {
 }
 
 .rewiews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: -60px;
   min-height: 650px;
-  margin-top: 60px;
+  height: 100vh;
 }
-.rewiews .rewiews {
-  margin-top: 0px;
+.rewiews .section__title {
+  text-align: center;
 }
 
 .rewiews__display {
