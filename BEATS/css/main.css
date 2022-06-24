@@ -432,11 +432,14 @@ address {
 .rewiews .section__title {
   text-align: center;
 }
-
 .rewiews__display {
+  min-width: 939px;
+  margin-top: 40px;
   background: #F8FAF9;
   padding-left: 43px;
   padding-right: 43px;
+  padding-top: 43px;
+  padding-bottom: 43px;
 }
 .rewiews__display .rewiews__display--inner {
   display: -webkit-box;
