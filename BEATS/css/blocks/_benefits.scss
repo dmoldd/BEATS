@@ -23,8 +23,10 @@
         }    
         
         .headline__subtitle {
+            
             max-height: 38px;
             margin: 0 auto;
+            margin-top: 16px;
             max-width: 580px;
             font-family: 'Play';
             font-style: normal;
@@ -37,7 +39,14 @@
     
     .benefits__items {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        .between {
+            display: flex;
+            flex-direction: column;
+            margin-top: 52px;
+            height: 100%;
+            width: 100%;
+        }
         .benefits__item {
             display: flex;
             flex-direction: column;
@@ -54,6 +63,8 @@
                 align-items: center;
                 .benefit__title {
                     margin-top: 33px;
+                    width: 260px;
+                    text-align: center;
                 }
                 .benefit__description {
                     max-width: 250px;

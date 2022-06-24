@@ -1,13 +1,19 @@
 .order{
-    padding-top: 35px;
-    // margin-top: 50px;
-    // margin-bottom: -50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background: #181818;
     min-height: 650px;
+    height: 100vh;
     .container {
         h2 {
             color: #FFFFFF;
+            text-align: center;
         }
     }
+}
+
+.form {
+    margin-top: 70px;
 }
 
