@@ -1,7 +1,7 @@
 .rewiews {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     min-height: 650px;
     height: 100vh;
     .section__title {
@@ -11,8 +11,6 @@
 
 .rewiews__display {
     background: #F8FAF9;
-    padding-top: 41px;
-    padding-bottom: 41px;
     padding-left: 43px;
     padding-right: 43px;
     .rewiews__display--inner {
