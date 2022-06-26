@@ -278,6 +278,8 @@ address {
 @media screen and (max-width: 768px) {
   .hero__logo--768 {
     display: block;
+    height: 11.1111111111rem;
+    width: 11.1111111111rem;
   }
 }
 
