@@ -6,24 +6,24 @@ $text-color: #292929;     /* ПЕРЕМЕННАЯ "ЦВЕТ ТЕКСТА" */
     font-family: 'Alegreya Sans';       /* МИКСИН "ШРИФТ НАВИГАЦИИ" */
     font-style: normal;                 /* МИКСИН "ШРИФТ НАВИГАЦИИ" */
     font-weight: 400;                   /* МИКСИН "ШРИФТ НАВИГАЦИИ" */
-    font-size: 18px;                    /* МИКСИН "ШРИФТ НАВИГАЦИИ" */
-    line-height: 20px;                  /* МИКСИН "ШРИФТ НАВИГАЦИИ" */
+    font-size: rem(18px);                    /* МИКСИН "ШРИФТ НАВИГАЦИИ" */
+    line-height: rem(20px);                  /* МИКСИН "ШРИФТ НАВИГАЦИИ" */
 }                                       /* МИКСИН "ШРИФТ НАВИГАЦИИ" */
 
 @mixin fontaddress {        /* МИКСИН "ШРИФТ КОЛОНКИ С ТЕЛЕФОНОМ" */
     font-family: 'Play';    /* МИКСИН "ШРИФТ КОЛОНКИ С ТЕЛЕФОНОМ" */
     font-style: normal;     /* МИКСИН "ШРИФТ КОЛОНКИ С ТЕЛЕФОНОМ" */
     font-weight: 400;       /* МИКСИН "ШРИФТ КОЛОНКИ С ТЕЛЕФОНОМ" */
-    font-size: 18px;        /* МИКСИН "ШРИФТ КОЛОНКИ С ТЕЛЕФОНОМ" */
-    line-height: 18px;      /* МИКСИН "ШРИФТ КОЛОНКИ С ТЕЛЕФОНОМ" */
+    font-size: rem(18px);        /* МИКСИН "ШРИФТ КОЛОНКИ С ТЕЛЕФОНОМ" */
+    line-height: rem(18px);      /* МИКСИН "ШРИФТ КОЛОНКИ С ТЕЛЕФОНОМ" */
 }
 
 @mixin fonth3 {                         /* МИКСИН "ШРИФТ ЗАГОЛОВКОВ H3" */
     font-family: 'Play';                /* МИКСИН "ШРИФТ ЗАГОЛОВКОВ H3" */
     font-style: normal;                 /* МИКСИН "ШРИФТ ЗАГОЛОВКОВ H3" */
     font-weight: 700;                   /* МИКСИН "ШРИФТ ЗАГОЛОВКОВ H3" */
-    font-size: 24px;                    /* МИКСИН "ШРИФТ ЗАГОЛОВКОВ H3" */
-    line-height: 28px;                  /* МИКСИН "ШРИФТ ЗАГОЛОВКОВ H3" */
+    font-size: rem(24px);                    /* МИКСИН "ШРИФТ ЗАГОЛОВКОВ H3" */
+    line-height: rem(28px);                  /* МИКСИН "ШРИФТ ЗАГОЛОВКОВ H3" */
 }
 
 @mixin button-order {
@@ -32,12 +32,12 @@ $text-color: #292929;     /* ПЕРЕМЕННАЯ "ЦВЕТ ТЕКСТА" */
 
 @if (h1 == true) else {
     h1 {
-        max-width: 400px;
+        max-width: rem(400px);
         font-family: 'Play';        /* "ШРИФТ ЗАГОЛОВКОВ H1" */
         font-style: normal;         /* "ШРИФТ ЗАГОЛОВКОВ H1" */
         font-weight: 700;           /* "ШРИФТ ЗАГОЛОВКОВ H1" */
-        font-size: 48px;            /* "ШРИФТ ЗАГОЛОВКОВ H1" */
-        line-height: 52px;          /* "ШРИФТ ЗАГОЛОВКОВ H1" */
+        font-size: rem(48px);            /* "ШРИФТ ЗАГОЛОВКОВ H1" */
+        line-height: rem(52px);          /* "ШРИФТ ЗАГОЛОВКОВ H1" */
     }
 }
 
@@ -47,8 +47,8 @@ $text-color: #292929;     /* ПЕРЕМЕННАЯ "ЦВЕТ ТЕКСТА" */
         font-family: 'Play';        /* "ШРИФТ ЗАГОЛОВКОВ H2" */
         font-style: normal;         /* "ШРИФТ ЗАГОЛОВКОВ H2" */
         font-weight: 700;           /* "ШРИФТ ЗАГОЛОВКОВ H2" */
-        font-size: 48px;            /* "ШРИФТ ЗАГОЛОВКОВ H2" */
-        line-height: 52px;          /* "ШРИФТ ЗАГОЛОВКОВ H2" */
+        font-size: rem(48px);            /* "ШРИФТ ЗАГОЛОВКОВ H2" */
+        line-height: rem(52px);          /* "ШРИФТ ЗАГОЛОВКОВ H2" */
     }
 }
 
@@ -59,8 +59,8 @@ $text-color: #292929;     /* ПЕРЕМЕННАЯ "ЦВЕТ ТЕКСТА" */
         font-family: 'Play';    /* "ШРИФТ ЗАГОЛОВКОВ H3" */
         font-style: normal;     /* "ШРИФТ ЗАГОЛОВКОВ H3" */
         font-weight: 700;       /* "ШРИФТ ЗАГОЛОВКОВ H3" */
-        font-size: 36px;        /* "ШРИФТ ЗАГОЛОВКОВ H3" */
-        line-height: 42px;      /* "ШРИФТ ЗАГОЛОВКОВ H3" */
+        font-size: rem(36px);        /* "ШРИФТ ЗАГОЛОВКОВ H3" */
+        line-height: rem(42px);      /* "ШРИФТ ЗАГОЛОВКОВ H3" */
     }
 }
 
@@ -69,8 +69,8 @@ $text-color: #292929;     /* ПЕРЕМЕННАЯ "ЦВЕТ ТЕКСТА" */
         font-family: 'Play';    /* "ШРИФТ ЗАГОЛОВКОВ H4" */
         font-style: normal;     /* "ШРИФТ ЗАГОЛОВКОВ H4" */
         font-weight: 700;       /* "ШРИФТ ЗАГОЛОВКОВ H4" */
-        font-size: 24px;        /* "ШРИФТ ЗАГОЛОВКОВ H4" */
-        line-height: 28px;      /* "ШРИФТ ЗАГОЛОВКОВ H4" */
+        font-size: rem(24px);        /* "ШРИФТ ЗАГОЛОВКОВ H4" */
+        line-height: rem(28px);      /* "ШРИФТ ЗАГОЛОВКОВ H4" */
     }
 }
 
@@ -79,8 +79,8 @@ $text-color: #292929;     /* ПЕРЕМЕННАЯ "ЦВЕТ ТЕКСТА" */
         font-family: 'Play';
         font-style: normal;
         font-weight: 700;
-        font-size: 18px;
-        line-height: 21px;
+        font-size: rem(18px);
+        line-height: rem(21px);
         color: #292929;
     }
 }

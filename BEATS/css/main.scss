@@ -1,14 +1,31 @@
 // ЧЕМ БОЛЕЕ ОБЩИЙ ФАЙЛ, ТЕМ ВЫШЕ ОН НАХОДИТСЯ (Т.Е. БОЛЕЕ ПРИОРИТЕТЕН)
 
 // НАЗЫВАТЬ ЗАВИСИМЫЕ ФАЙЛЫ НУЖНО ТОЛЬКО ЧЕРЕЗ НИЖНЕЕ ПОДЧЕРКИВАНИЕ 
+
+
+
+//breakpoints
+
+$tablets: 768px;
+$phones: 480px;
+
+$baseFontSize:18px;
+
+
+
 @import "layout/base.css";
 
 @import "layout/normalize.css";
 
 @import "layout/fonts.css";
 
+@import "layout/_media.scss";
+
 @import "blocks/_mixin.scss";
-/* ПОДКЛЮЧИЛ ФАЙЛ С ПЕРЕМЕННЫМИ, МИКСИНАМИ И ПР. */
+
+
+
+
 
 @import "blocks/_header.scss";
 /* ПОДКЛЮЧИЛ СТИЛИ ХЭДЕРА */
@@ -42,5 +59,36 @@
 
 @import "blocks/_btn.scss";
 
-@import "layout/_media.scss";
 
+
+html {
+    font-size: $baseFontSize;
+
+    @include tablets {
+    font-size: $baseFontSize - 1px;
+    }
+
+    @include phones {
+        font-size: $baseFontSize - 2px;
+        }
+
+}
+
+.menu {
+    @include tablets {
+        display: none;
+    }
+}
+
+.phone-number.header__phone-number {
+    @include tablets {
+        display: none;
+    }
+}
+
+.container {
+    @include tablets {
+        padding-right: rem(22px);
+        padding-left: rem(22px);
+    }
+}

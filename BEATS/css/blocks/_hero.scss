@@ -1,28 +1,72 @@
 .hero {
-    padding-top: 24px;
-    background: url('../img/hello/headphones.png') left 80% center no-repeat;
+    padding-top: rem(24px);
     background-color: $blue;
-    min-height: 650px;
+    min-height: rem(650px);
     height: 100vh;
 
+
+
+    &:before, &:after {
+        @include tablets {
+            display: none;
+        }
+    }
+
 }
+
+.hero__logo--768 {
+    display: none;
+    @include tablets {
+            display: block; 
+        }
+    }
+
 .hero__title-section {
-    margin-top: 95px;
+    margin-top: rem(95px);
+
+    
+    @include tablets {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        max-width: 100%;
+        align-items: center;
+        text-align: center;
+    }
     .hero__title-desc {
-        margin-top: 22px;
-        max-width: 321px;
+        margin-top: rem(22px);
+        max-width: rem(321px);
         font-family: 'Alegreya Sans';
         font-style: normal;
         font-weight: 400;
-        font-size: 21px;
-        line-height: 25px;
+        font-size: rem(21px);
+        line-height: rem(25px);
         color: #292929;
+
+        @include tablets {
+            max-width: 100%;
+            
+        }
     }
     .button {
-        margin-top: 33px;
+        margin-top: rem(33px);
     }
 }
 
 .hero__icons-section {
-    margin-top: 75px;
+    margin-top: rem(75px);
+}
+
+.hero__icons-section {
+    @include tablets {
+        display: none;
+    }
+}
+
+.hero__container {
+    background: url('../img/hello/headphones.png') left 80% center no-repeat;
+    @include tablets {
+        background: none;
+    }
 }

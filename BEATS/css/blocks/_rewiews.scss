@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 650px;
+    min-height: rem(650px);
     height: 100vh;
     .section__title {
         text-align: center;
@@ -13,45 +13,45 @@
 }
 
 .rewiews__display {
-    min-width: 939px;
-    margin-top: 40px;
+    min-width: rem(939px);
+    margin-top: rem(40px);
     background: #F8FAF9;
-    padding-left: 43px;
-    padding-right: 43px;
-    padding-top: 43px;
-    padding-bottom: 43px;
+    padding-left: rem(43px);
+    padding-right: rem(43px);
+    padding-top: rem(43px);
+    padding-bottom: rem(43px);
     .rewiews__display--inner {
         display: flex;
         .rewiews__avatar {
             .rewiews__avatar--img {
-                height: 264px;
-                width: 253px;
+                height: rem(264px);
+                width: rem(253px);
             }
         }
         .rewiews__content {
             display: flex;
             flex-direction: column;
             align-items: flex-start;
-            margin-left: 38px;
+            margin-left: rem(38px);
             .rewiews__title {
-                margin-top: 37px;
+                margin-top: rem(37px);
                 align-self: flex-start;
                 text-align: left;
             }
             .rewiews__text {
-                margin-top: 24px;
-                max-width: 498px;
+                margin-top: rem(24px);
+                max-width: rem(498px);
                 font-family: 'Play';
                 font-style: normal;
                 font-weight: 400;
-                font-size: 16px;
-                line-height: 19px;
+                font-size: rem(16px);
+                line-height: rem(19px);
                 display: flex;
                 align-items: flex-end;
                 color: #666666;
             }
             .rewiews__author {
-                margin-top: 38px;
+                margin-top: rem(38px);
             }
         }
     }
@@ -60,15 +60,15 @@
 .rewiews__switcher {
     display: flex;
     justify-content: center;
-    padding-top: 14px;
+    padding-top: rem(14px);
     .interactive-avatar {
-        height: 80px;
-        width: 80px;
+        height: rem(80px);
+        width: rem(80px);
         position: relative;
         overflow: hidden;
         border-radius: 50%;
 
-        border: 4px solid transparent;
+        border: rem(4px) solid transparent;
         &--active {
             border-color: #E01F3D;
         }

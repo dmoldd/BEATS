@@ -1,5 +1,5 @@
 .benefits {
-    min-height: 650px;
+    min-height: rem(650px);
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -19,20 +19,20 @@
         }    
     
         .headline__title {
-            max-height: 52px;
+            max-height: rem(52px);
         }    
         
         .headline__subtitle {
             
-            max-height: 38px;
+            max-height: rem(38px);
             margin: 0 auto;
-            margin-top: 16px;
-            max-width: 580px;
+            margin-top: rem(16px);
+            max-width: rem(580px);
             font-family: 'Play';
             font-style: normal;
             font-weight: 400;
-            font-size: 16px;
-            line-height: 19px;
+            font-size: rem(16px);
+            line-height: rem(19px);
             color: #666666;
         }    
     }    
@@ -43,7 +43,7 @@
         .between {
             display: flex;
             flex-direction: column;
-            margin-top: 52px;
+            margin-top: rem(52px);
             height: 100%;
             width: 100%;
         }
@@ -62,19 +62,19 @@
                 flex-direction: column;
                 align-items: center;
                 .benefit__title {
-                    margin-top: 33px;
-                    width: 260px;
+                    margin-top: rem(33px);
+                    width: rem(260px);
                     text-align: center;
                 }
                 .benefit__description {
-                    max-width: 250px;
-                    // max-height: 95px;
-                    margin-top: 10px;
+                    max-width: rem(250px);
+                    // max-height: rem(95px);
+                    margin-top: rem(10px);
                     font-family: 'Play';
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 16px;
-                    line-height: 19px;
+                    font-size: rem(16px);
+                    line-height: rem(19px);
                     text-align: center;
                     color: #666666;
     
@@ -84,7 +84,7 @@
     }    
     
     ul {
-        margin-top: 63px;
+        margin-top: rem(63px);
         // align-self: flex-start;
     }
     

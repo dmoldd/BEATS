@@ -5,16 +5,16 @@
 /* ПЕРЕМЕННАЯ "ЦВЕТ ТЕКСТА" */
 /* МИКСИН "ШРИФТ НАВИГАЦИИ" */
 h1 {
-  max-width: 400px;
+  max-width: 22.2222222222rem;
   font-family: "Play";
   /* "ШРИФТ ЗАГОЛОВКОВ H1" */
   font-style: normal;
   /* "ШРИФТ ЗАГОЛОВКОВ H1" */
   font-weight: 700;
   /* "ШРИФТ ЗАГОЛОВКОВ H1" */
-  font-size: 48px;
+  font-size: 2.6666666667rem;
   /* "ШРИФТ ЗАГОЛОВКОВ H1" */
-  line-height: 52px;
+  line-height: 2.8888888889rem;
   /* "ШРИФТ ЗАГОЛОВКОВ H1" */
 }
 
@@ -25,9 +25,9 @@ h2 {
   /* "ШРИФТ ЗАГОЛОВКОВ H2" */
   font-weight: 700;
   /* "ШРИФТ ЗАГОЛОВКОВ H2" */
-  font-size: 48px;
+  font-size: 2.6666666667rem;
   /* "ШРИФТ ЗАГОЛОВКОВ H2" */
-  line-height: 52px;
+  line-height: 2.8888888889rem;
   /* "ШРИФТ ЗАГОЛОВКОВ H2" */
 }
 
@@ -38,9 +38,9 @@ h3 {
   /* "ШРИФТ ЗАГОЛОВКОВ H3" */
   font-weight: 700;
   /* "ШРИФТ ЗАГОЛОВКОВ H3" */
-  font-size: 36px;
+  font-size: 2rem;
   /* "ШРИФТ ЗАГОЛОВКОВ H3" */
-  line-height: 42px;
+  line-height: 2.3333333333rem;
   /* "ШРИФТ ЗАГОЛОВКОВ H3" */
 }
 
@@ -51,9 +51,9 @@ h4 {
   /* "ШРИФТ ЗАГОЛОВКОВ H4" */
   font-weight: 700;
   /* "ШРИФТ ЗАГОЛОВКОВ H4" */
-  font-size: 24px;
+  font-size: 1.3333333333rem;
   /* "ШРИФТ ЗАГОЛОВКОВ H4" */
-  line-height: 28px;
+  line-height: 1.5555555556rem;
   /* "ШРИФТ ЗАГОЛОВКОВ H4" */
 }
 
@@ -61,12 +61,11 @@ h5 {
   font-family: "Play";
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
+  font-size: 1rem;
+  line-height: 1.1666666667rem;
   color: #292929;
 }
 
-/* ПОДКЛЮЧИЛ ФАЙЛ С ПЕРЕМЕННЫМИ, МИКСИНАМИ И ПР. */
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -89,10 +88,10 @@ h5 {
 }
 
 .menu__item {
-  margin-right: 22px;
+  margin-right: 1.2222222222rem;
 }
 .menu__item:last-child {
-  margin-right: 0px;
+  margin-right: 0rem;
 }
 
 address {
@@ -103,9 +102,9 @@ address {
   /* МИКСИН "ШРИФТ КОЛОНКИ С ТЕЛЕФОНОМ" */
   font-weight: 400;
   /* МИКСИН "ШРИФТ КОЛОНКИ С ТЕЛЕФОНОМ" */
-  font-size: 18px;
+  font-size: 1rem;
   /* МИКСИН "ШРИФТ КОЛОНКИ С ТЕЛЕФОНОМ" */
-  line-height: 18px;
+  line-height: 1rem;
   /* МИКСИН "ШРИФТ КОЛОНКИ С ТЕЛЕФОНОМ" */
 }
 
@@ -118,9 +117,9 @@ address {
           align-items: center;
 }
 .phone-number .phone-number__icon--element {
-  width: 12px;
-  height: 12px;
-  margin-right: 6px;
+  width: 0.6666666667rem;
+  height: 0.6666666667rem;
+  margin-right: 0.3333333333rem;
 }
 
 /* ПОДКЛЮЧИЛ СТИЛИ ХЭДЕРА */
@@ -138,7 +137,7 @@ address {
       -ms-flex-pack: center;
           justify-content: center;
   background: #181818;
-  min-height: 650px;
+  min-height: 36.1111111111rem;
   height: 100vh;
 }
 .order .container h2 {
@@ -147,7 +146,7 @@ address {
 }
 
 .form {
-  margin-top: 70px;
+  margin-top: 3.8888888889rem;
 }
 
 /* ПОДКЛЮЧИЛ СТИЛИ БЛОКА ЗАКАЗА ТОВАРА */
@@ -175,50 +174,50 @@ address {
       align-self: center;
 }
 .team__members .team__members--item div h5 {
-  margin-top: 30px;
+  margin-top: 1.6666666667rem;
 }
 .team__members .team__members--item div .operator {
   color: #292929;
-  margin-top: 15px;
+  margin-top: 0.8333333333rem;
 }
 .team__members .team__members--item div p {
-  margin-top: 10px;
+  margin-top: 0.5555555556rem;
   text-align: center;
-  max-width: 142px;
+  max-width: 7.8888888889rem;
   font-family: "Play";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 0.8888888889rem;
+  line-height: 1.0555555556rem;
   color: #666666;
 }
 
 .team {
-  padding-bottom: 50px;
+  padding-bottom: 2.7777777778rem;
 }
 
 /* ПОДКЛЮЧИЛ СТИЛИ БЛОКА КОМАНДЫ КОМПАНИИ */
 .properties {
-  padding-bottom: 155px;
+  padding-bottom: 8.6111111111rem;
 }
 .properties h2 {
-  padding-top: 67px;
+  padding-top: 3.7222222222rem;
   text-align: center;
 }
 .properties p {
   margin: 0 auto;
-  margin-top: -40px;
-  max-width: 590px;
+  margin-top: -2.2222222222rem;
+  max-width: 32.7777777778rem;
   font-family: "Play";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
+  font-size: 0.7777777778rem;
+  line-height: 1.0555555556rem;
   text-align: center;
   color: #666666;
 }
 .properties .properties__items {
-  margin-top: 62px;
+  margin-top: 3.4444444444rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -231,7 +230,7 @@ address {
           flex-direction: row;
 }
 .properties .properties__items .between {
-  margin-top: 50px;
+  margin-top: 2.7777777778rem;
 }
 .properties .properties__items .properties__items--item {
   display: -webkit-box;
@@ -247,47 +246,100 @@ address {
 }
 .properties .properties__items .properties__items--item h4 {
   color: #292929;
-  margin-top: 31px;
+  margin-top: 1.7222222222rem;
 }
 .properties .properties__items .properties__items--item p {
-  margin-top: 0px;
+  margin-top: 0rem;
   font-family: "Play";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 0.8888888889rem;
+  line-height: 1.0555555556rem;
   text-align: center;
   color: #666666;
 }
 
 /* ПОДКЛЮЧИЛ СТИЛИ БЛОКА СВОЙСТВ ТОВАРА */
 .hero {
-  padding-top: 24px;
-  background: url("../img/hello/headphones.png") left 80% center no-repeat;
+  padding-top: 1.3333333333rem;
   background-color: #F5F5F5;
-  min-height: 650px;
+  min-height: 36.1111111111rem;
   height: 100vh;
+}
+@media screen and (max-width: 768px) {
+  .hero:before, .hero:after {
+    display: none;
+  }
+}
+
+.hero__logo--768 {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .hero__logo--768 {
+    display: block;
+  }
 }
 
 .hero__title-section {
-  margin-top: 95px;
+  margin-top: 5.2777777778rem;
+}
+@media screen and (max-width: 768px) {
+  .hero__title-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
 }
 .hero__title-section .hero__title-desc {
-  margin-top: 22px;
-  max-width: 321px;
+  margin-top: 1.2222222222rem;
+  max-width: 17.8333333333rem;
   font-family: "Alegreya Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 21px;
-  line-height: 25px;
+  font-size: 1.1666666667rem;
+  line-height: 1.3888888889rem;
   color: #292929;
 }
+@media screen and (max-width: 768px) {
+  .hero__title-section .hero__title-desc {
+    max-width: 100%;
+  }
+}
 .hero__title-section .button {
-  margin-top: 33px;
+  margin-top: 1.8333333333rem;
 }
 
 .hero__icons-section {
-  margin-top: 75px;
+  margin-top: 4.1666666667rem;
+}
+
+@media screen and (max-width: 768px) {
+  .hero__icons-section {
+    display: none;
+  }
+}
+
+.hero__container {
+  background: url("../img/hello/headphones.png") left 80% center no-repeat;
+}
+@media screen and (max-width: 768px) {
+  .hero__container {
+    background: none;
+  }
 }
 
 .features {
@@ -299,21 +351,21 @@ address {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-right: 17px;
+  margin-right: 0.9444444444rem;
 }
 .features .features__item .feature__text {
-  max-width: 110px;
-  margin-left: 13px;
+  max-width: 6.1111111111rem;
+  margin-left: 0.7222222222rem;
 }
 .features .features__item .feature__text:nth-child(2) {
-  max-width: 110px;
+  max-width: 6.1111111111rem;
 }
 .features .features__item .feature__text:nth-child(2) {
-  max-width: 110px;
+  max-width: 6.1111111111rem;
 }
 
 .benefits {
-  min-height: 650px;
+  min-height: 36.1111111111rem;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -337,18 +389,18 @@ address {
   text-align: center;
 }
 .benefits .headline .headline__title {
-  max-height: 52px;
+  max-height: 2.8888888889rem;
 }
 .benefits .headline .headline__subtitle {
-  max-height: 38px;
+  max-height: 2.1111111111rem;
   margin: 0 auto;
-  margin-top: 16px;
-  max-width: 580px;
+  margin-top: 0.8888888889rem;
+  max-width: 32.2222222222rem;
   font-family: "Play";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 0.8888888889rem;
+  line-height: 1.0555555556rem;
   color: #666666;
 }
 .benefits .benefits__items {
@@ -367,7 +419,7 @@ address {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: 52px;
+  margin-top: 2.8888888889rem;
   height: 100%;
   width: 100%;
 }
@@ -396,23 +448,23 @@ address {
           align-items: center;
 }
 .benefits .benefits__items .benefits__item .benefit__text .benefit__title {
-  margin-top: 33px;
-  width: 260px;
+  margin-top: 1.8333333333rem;
+  width: 14.4444444444rem;
   text-align: center;
 }
 .benefits .benefits__items .benefits__item .benefit__text .benefit__description {
-  max-width: 250px;
-  margin-top: 10px;
+  max-width: 13.8888888889rem;
+  margin-top: 0.5555555556rem;
   font-family: "Play";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 0.8888888889rem;
+  line-height: 1.0555555556rem;
   text-align: center;
   color: #666666;
 }
 .benefits ul {
-  margin-top: 63px;
+  margin-top: 3.5rem;
 }
 
 .rewiews {
@@ -426,20 +478,20 @@ address {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  min-height: 650px;
+  min-height: 36.1111111111rem;
   height: 100vh;
 }
 .rewiews .section__title {
   text-align: center;
 }
 .rewiews__display {
-  min-width: 939px;
-  margin-top: 40px;
+  min-width: 52.1666666667rem;
+  margin-top: 2.2222222222rem;
   background: #F8FAF9;
-  padding-left: 43px;
-  padding-right: 43px;
-  padding-top: 43px;
-  padding-bottom: 43px;
+  padding-left: 2.3888888889rem;
+  padding-right: 2.3888888889rem;
+  padding-top: 2.3888888889rem;
+  padding-bottom: 2.3888888889rem;
 }
 .rewiews__display .rewiews__display--inner {
   display: -webkit-box;
@@ -447,8 +499,8 @@ address {
   display: flex;
 }
 .rewiews__display .rewiews__display--inner .rewiews__avatar .rewiews__avatar--img {
-  height: 264px;
-  width: 253px;
+  height: 14.6666666667rem;
+  width: 14.0555555556rem;
 }
 .rewiews__display .rewiews__display--inner .rewiews__content {
   display: -webkit-box;
@@ -461,22 +513,22 @@ address {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  margin-left: 38px;
+  margin-left: 2.1111111111rem;
 }
 .rewiews__display .rewiews__display--inner .rewiews__content .rewiews__title {
-  margin-top: 37px;
+  margin-top: 2.0555555556rem;
   -ms-flex-item-align: start;
       align-self: flex-start;
   text-align: left;
 }
 .rewiews__display .rewiews__display--inner .rewiews__content .rewiews__text {
-  margin-top: 24px;
-  max-width: 498px;
+  margin-top: 1.3333333333rem;
+  max-width: 27.6666666667rem;
   font-family: "Play";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 0.8888888889rem;
+  line-height: 1.0555555556rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -486,7 +538,7 @@ address {
   color: #666666;
 }
 .rewiews__display .rewiews__display--inner .rewiews__content .rewiews__author {
-  margin-top: 38px;
+  margin-top: 2.1111111111rem;
 }
 
 .rewiews__switcher {
@@ -496,15 +548,15 @@ address {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 14px;
+  padding-top: 0.7777777778rem;
 }
 .rewiews__switcher .interactive-avatar {
-  height: 80px;
-  width: 80px;
+  height: 4.4444444444rem;
+  width: 4.4444444444rem;
   position: relative;
   overflow: hidden;
   border-radius: 50%;
-  border: 4px solid transparent;
+  border: 0.2222222222rem solid transparent;
 }
 .rewiews__switcher .interactive-avatar--active {
   border-color: #E01F3D;
@@ -535,50 +587,50 @@ address {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  margin-right: 20px;
+  margin-right: 1.1111111111rem;
 }
 .form__col:last-child {
-  margin-right: 0px;
+  margin-right: 0rem;
 }
 
 .form__row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 18px;
+  margin-bottom: 1rem;
 }
 
 .form__block {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  margin-right: 20px;
+  margin-right: 1.1111111111rem;
 }
 .form__block:last-child {
-  margin-right: 0px;
+  margin-right: 0rem;
 }
 
 .form__input {
   width: 100%;
-  border: solid 3px transparent;
-  border-radius: 4px;
+  border: solid 0.1666666667rem transparent;
+  border-radius: 0.2222222222rem;
   background: #FFFFFF;
-  padding-top: 17px;
-  padding-bottom: 17px;
-  padding-left: 13px;
-  padding-right: 13px;
+  padding-top: 0.9444444444rem;
+  padding-bottom: 0.9444444444rem;
+  padding-left: 0.7222222222rem;
+  padding-right: 0.7222222222rem;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 0.7777777778rem;
+  line-height: 1.1111111111rem;
 }
 .form__input:focus {
   border-color: #E01F3D;
   outline: none;
 }
 .form__input--textarea {
-  height: 152px;
+  height: 8.4444444444rem;
   resize: none;
 }
 
@@ -586,13 +638,13 @@ address {
   font-family: "Play";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 0.8888888889rem;
+  line-height: 1.0555555556rem;
   color: #FFFFFF;
 }
 
 .form__controls {
-  margin-top: 32px;
+  margin-top: 1.7777777778rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -601,16 +653,16 @@ address {
   font-family: "Play";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 0.8888888889rem;
+  line-height: 1.0555555556rem;
   color: #FFFFFF;
 }
 .form__controls:last-child {
-  margin-top: 2px;
+  margin-top: 0.1111111111rem;
 }
 
 .radio__checkbox {
-  margin-top: -15px;
+  margin-top: -0.8333333333rem;
 }
 
 .radio {
@@ -632,16 +684,16 @@ address {
 }
 
 .radio__visible {
-  width: 26px;
-  height: 26px;
+  width: 1.4444444444rem;
+  height: 1.4444444444rem;
   position: relative;
   border-radius: 50%;
   background: #fff;
 }
 .radio__visible:before {
   content: "";
-  width: 14px;
-  height: 14px;
+  width: 0.7777777778rem;
+  height: 0.7777777778rem;
   background: #E01F3D;
   border-radius: 50%;
   position: absolute;
@@ -660,23 +712,23 @@ address {
 }
 
 .radio__title {
-  margin-right: 20px;
-  margin-left: 10px;
-  margin-top: 3px;
+  margin-right: 1.1111111111rem;
+  margin-left: 0.5555555556rem;
+  margin-top: 0.1666666667rem;
 }
 
 button {
   background: #E01F3D;
   /* НАСТРОЙКИ КНОПКИ */
-  border-radius: 100px;
+  border-radius: 5.5555555556rem;
   /* НАСТРОЙКИ КНОПКИ */
-  padding-top: 18px;
+  padding-top: 1rem;
   /* НАСТРОЙКИ КНОПКИ */
-  padding-bottom: 20px;
+  padding-bottom: 1.1111111111rem;
   /* НАСТРОЙКИ КНОПКИ */
-  padding-left: 42px;
+  padding-left: 2.3333333333rem;
   /* НАСТРОЙКИ КНОПКИ */
-  padding-right: 42px;
+  padding-right: 2.3333333333rem;
   /* НАСТРОЙКИ КНОПКИ */
   font-family: "Play";
   /* НАСТРОЙКИ КНОПКИ */
@@ -684,9 +736,9 @@ button {
   /* НАСТРОЙКИ КНОПКИ */
   font-weight: 700;
   /* НАСТРОЙКИ КНОПКИ */
-  font-size: 16px;
+  font-size: 0.8888888889rem;
   /* НАСТРОЙКИ КНОПКИ */
-  line-height: 18px;
+  line-height: 1rem;
   /* НАСТРОЙКИ КНОПКИ */
   color: #FFFFFF;
   /* НАСТРОЙКИ КНОПКИ */
@@ -697,12 +749,45 @@ button {
   font-family: "Play";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 0.8888888889rem;
+  line-height: 1.0555555556rem;
   color: #FFFFFF;
   padding-left: 0;
 }
 
 .form__buttons {
-  margin-top: 44px;
+  margin-top: 2.4444444444rem;
+}
+
+html {
+  font-size: 18px;
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .phone-number.header__phone-number {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding-right: 1.2222222222rem;
+    padding-left: 1.2222222222rem;
+  }
 }

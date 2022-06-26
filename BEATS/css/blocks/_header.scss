@@ -5,7 +5,7 @@
 }
 
 .menu {
-    // margin-left: -35px;
+    // margin-left: rem(-35px);
 }
 
 .menu__list {
@@ -14,9 +14,9 @@
 }
 
 .menu__item {
-    margin-right: 22px;
+    margin-right: rem(22px);
     &:last-child {
-        margin-right: 0px;
+        margin-right: rem(0px);
     }
 }
 
@@ -30,8 +30,8 @@ address {
     display: flex;
     align-items: center;
     .phone-number__icon--element {
-        width: 12px;
-        height: 12px;
-        margin-right: 6px;
+        width: rem(12px);
+        height: rem(12px);
+        margin-right: rem(6px);
     }
 }

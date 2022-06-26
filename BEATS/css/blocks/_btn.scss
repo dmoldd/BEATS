@@ -1,16 +1,16 @@
 @if (button == true) else {
     button {
         background:#E01F3D;       /* НАСТРОЙКИ КНОПКИ */
-        border-radius: 100px;       /* НАСТРОЙКИ КНОПКИ */
-        padding-top: 18px;          /* НАСТРОЙКИ КНОПКИ */
-        padding-bottom: 20px;       /* НАСТРОЙКИ КНОПКИ */
-        padding-left: 42px;         /* НАСТРОЙКИ КНОПКИ */
-        padding-right: 42px;        /* НАСТРОЙКИ КНОПКИ */
+        border-radius: rem(100px);       /* НАСТРОЙКИ КНОПКИ */
+        padding-top: rem(18px);          /* НАСТРОЙКИ КНОПКИ */
+        padding-bottom: rem(20px);       /* НАСТРОЙКИ КНОПКИ */
+        padding-left: rem(42px);         /* НАСТРОЙКИ КНОПКИ */
+        padding-right: rem(42px);        /* НАСТРОЙКИ КНОПКИ */
         font-family: 'Play';        /* НАСТРОЙКИ КНОПКИ */
         font-style: normal;         /* НАСТРОЙКИ КНОПКИ */
         font-weight: 700;           /* НАСТРОЙКИ КНОПКИ */
-        font-size: 16px;            /* НАСТРОЙКИ КНОПКИ */
-        line-height: 18px;          /* НАСТРОЙКИ КНОПКИ */
+        font-size: rem(16px);            /* НАСТРОЙКИ КНОПКИ */
+        line-height: rem(18px);          /* НАСТРОЙКИ КНОПКИ */
         color: #FFFFFF;           /* НАСТРОЙКИ КНОПКИ */
     }
 }
@@ -20,13 +20,13 @@
     font-family: 'Play';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: rem(16px);
+    line-height: rem(19px);
     color: #FFFFFF;
     padding-left: 0;
 
 }
 
 .form__buttons {
-    margin-top: 44px;
+    margin-top: rem(44px);
 }
