@@ -278,14 +278,11 @@ address {
 @media screen and (max-width: 768px) {
   .hero__logo--768 {
     display: block;
-    height: 11.1111111111rem;
-    width: 11.1111111111rem;
+    height: 16.6666666667rem;
+    width: 16.6666666667rem;
   }
 }
 
-.hero__title-section {
-  margin-top: 5.2777777778rem;
-}
 @media screen and (max-width: 768px) {
   .hero__title-section {
     display: -webkit-box;
@@ -306,6 +303,15 @@ address {
     text-align: center;
   }
 }
+@media screen and (max-width: 768px) {
+  .hero__title-section .hero__main-title {
+    margin-top: 4.0555555556rem;
+    max-width: 35.3888888889rem;
+    font-size: 2.6666666667rem;
+    line-height: 2.8888888889rem;
+    color: #292929;
+  }
+}
 .hero__title-section .hero__title-desc {
   margin-top: 1.2222222222rem;
   max-width: 17.8333333333rem;
@@ -319,10 +325,16 @@ address {
 @media screen and (max-width: 768px) {
   .hero__title-section .hero__title-desc {
     max-width: 100%;
+    margin-top: 0.4444444444rem;
   }
 }
 .hero__title-section .button {
   margin-top: 1.8333333333rem;
+}
+@media screen and (max-width: 768px) {
+  .hero__title-section .button {
+    margin-top: 1.3888888889rem;
+  }
 }
 
 .hero__icons-section {

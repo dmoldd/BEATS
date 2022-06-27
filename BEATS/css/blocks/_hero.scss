@@ -18,13 +18,15 @@
     display: none;
     @include tablets {
             display: block; 
-            height: rem(200px);
-            width: rem(200px);
+            height: rem(300px);
+            width: rem(300px);
         }
     }
 
+
+
 .hero__title-section {
-    margin-top: rem(95px);
+
 
     
     @include tablets {
@@ -35,6 +37,16 @@
         max-width: 100%;
         align-items: center;
         text-align: center;
+    }
+
+    .hero__main-title {
+        @include tablets {
+            margin-top: rem(73px);
+            max-width: rem(637px);
+            font-size: rem(48px);
+            line-height: rem(52px);
+            color: #292929;
+        }
     }
     .hero__title-desc {
         margin-top: rem(22px);
@@ -48,11 +60,15 @@
 
         @include tablets {
             max-width: 100%;
-            
+            margin-top: rem(8px);
         }
     }
     .button {
         margin-top: rem(33px);
+        @include tablets {
+            
+            margin-top: rem(25px);
+        }
     }
 }
 
