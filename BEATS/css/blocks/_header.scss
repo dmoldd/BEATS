@@ -1,20 +1,28 @@
 .header {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 }
 
 .menu {
     // margin-left: rem(-35px);
+    margin: 0 10px;
+}
+
+.menu__link {
+    white-space: nowrap;
 }
 
 .menu__list {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .menu__item {
     margin-right: rem(22px);
+    margin-top:10px;
     &:last-child {
         margin-right: rem(0px);
     }
@@ -24,6 +32,8 @@
 
 address {
     @include fontaddress;
+        white-space: nowrap;
+        flex-shrink: 0;
 }
 
 .phone-number {

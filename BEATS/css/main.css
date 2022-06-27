@@ -66,16 +66,51 @@ h5 {
   color: #292929;
 }
 
+.hamburger {
+  width: 1.3333333333rem;
+  height: 1.1111111111rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+}
+
+.hamburger__plank {
+  display: block;
+  background: #292929;
+  height: 4px;
+  border-radius: 10px;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.menu {
+  margin: 0 10px;
+}
+
+.menu__link {
+  white-space: nowrap;
 }
 
 .menu__list {
@@ -85,10 +120,16 @@ h5 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .menu__item {
   margin-right: 1.2222222222rem;
+  margin-top: 10px;
 }
 .menu__item:last-child {
   margin-right: 0rem;
@@ -106,6 +147,9 @@ address {
   /* МИКСИН "ШРИФТ КОЛОНКИ С ТЕЛЕФОНОМ" */
   line-height: 1rem;
   /* МИКСИН "ШРИФТ КОЛОНКИ С ТЕЛЕФОНОМ" */
+  white-space: nowrap;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 .phone-number {
