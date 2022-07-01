@@ -551,14 +551,40 @@ address {
   padding-top: 2.3888888889rem;
   padding-bottom: 2.3888888889rem;
 }
+@media screen and (max-width: 768px) {
+  .rewiews__display {
+    min-width: 26rem;
+  }
+}
 .rewiews__display .rewiews__display--inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.rewiews__display .rewiews__display--inner .rewiews__avatar .rewiews__avatar--img {
+@media screen and (max-width: 768px) {
+  .rewiews__display .rewiews__display--inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+}
+.rewiews__display .rewiews__display--inner .rewiews__avatar {
   height: 14.6666666667rem;
   width: 14.0555555556rem;
+}
+@media screen and (max-width: 768px) {
+  .rewiews__display .rewiews__display--inner .rewiews__avatar {
+    height: 7.2222222222rem;
+    width: 7.2222222222rem;
+  }
 }
 .rewiews__display .rewiews__display--inner .rewiews__content {
   display: -webkit-box;
@@ -573,11 +599,34 @@ address {
           align-items: flex-start;
   margin-left: 2.1111111111rem;
 }
+@media screen and (max-width: 768px) {
+  .rewiews__display .rewiews__display--inner .rewiews__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+}
 .rewiews__display .rewiews__display--inner .rewiews__content .rewiews__title {
   margin-top: 2.0555555556rem;
   -ms-flex-item-align: start;
       align-self: flex-start;
   text-align: left;
+}
+@media screen and (max-width: 768px) {
+  .rewiews__display .rewiews__display--inner .rewiews__content .rewiews__title {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    text-align: center;
+  }
 }
 .rewiews__display .rewiews__display--inner .rewiews__content .rewiews__text {
   margin-top: 1.3333333333rem;
@@ -594,6 +643,14 @@ address {
       -ms-flex-align: end;
           align-items: flex-end;
   color: #666666;
+}
+@media screen and (max-width: 768px) {
+  .rewiews__display .rewiews__display--inner .rewiews__content .rewiews__text {
+    max-width: 37.6111111111rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 .rewiews__display .rewiews__display--inner .rewiews__content .rewiews__author {
   margin-top: 2.1111111111rem;

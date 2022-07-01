@@ -20,23 +20,49 @@
     padding-right: rem(43px);
     padding-top: rem(43px);
     padding-bottom: rem(43px);
+    @include tablets {
+        min-width: rem(468px);
+    }
     .rewiews__display--inner {
         display: flex;
-        .rewiews__avatar {
-            .rewiews__avatar--img {
-                height: rem(264px);
-                width: rem(253px);
-            }
+        @include tablets {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
         }
+        .rewiews__avatar {
+
+
+                height: rem(264px);
+                width: rem(253px);        
+                
+                @include tablets {
+                    height: rem(130px);
+                    width: rem(130px);
+                }
+            
+            }
+        
         .rewiews__content {
             display: flex;
             flex-direction: column;
             align-items: flex-start;
             margin-left: rem(38px);
+            @include tablets {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
             .rewiews__title {
                 margin-top: rem(37px);
                 align-self: flex-start;
                 text-align: left;
+                @include tablets {
+                    align-self: center;
+                    text-align: center;
+                }
             }
             .rewiews__text {
                 margin-top: rem(24px);
@@ -49,6 +75,11 @@
                 display: flex;
                 align-items: flex-end;
                 color: #666666;
+                @include tablets {
+                    max-width: rem(677px);
+                    display: flex;
+                    
+                }
             }
             .rewiews__author {
                 margin-top: rem(38px);
