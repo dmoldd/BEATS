@@ -26,7 +26,7 @@
 
 
 .hero__title-section {
-
+    margin-top: rem(102px);
 
     
     @include tablets {
@@ -37,6 +37,7 @@
         max-width: 100%;
         align-items: center;
         text-align: center;
+        margin-top: rem(0px);
     }
 
     .hero__main-title {

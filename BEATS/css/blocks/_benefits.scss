@@ -5,7 +5,29 @@
     flex-direction: column;
     justify-content: center;
 
-
+    .benefits__title {
+        font-family: 'Play';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 52px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+        @include tablets {
+            display: flex;
+            justify-content: center;
+            font-family: 'Play';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 52px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #000000;
+        }
+    }
+    
     
     .headline {
         display: flex;
@@ -77,7 +99,9 @@
                     line-height: rem(19px);
                     text-align: center;
                     color: #666666;
-    
+                    @include tablets {
+                        margin-top: rem(20px); 
+                    }
                 }
             }
         }
