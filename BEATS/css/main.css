@@ -542,6 +542,35 @@ address {
 .rewiews .section__title {
   text-align: center;
 }
+.rewiew__title {
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 52px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+@media screen and (max-width: 768px) {
+  .rewiew__title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-family: "Play";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+  }
+}
+
 .rewiews__display {
   min-width: 52.1666666667rem;
   margin-top: 2.2222222222rem;
@@ -626,6 +655,12 @@ address {
         -ms-grid-row-align: center;
         align-self: center;
     text-align: center;
+    font-family: "Play";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #292929;
   }
 }
 .rewiews__display .rewiews__display--inner .rewiews__content .rewiews__text {
@@ -697,6 +732,33 @@ address {
   display: -ms-flexbox;
   display: flex;
 }
+@media screen and (max-width: 768px) {
+  .form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 120px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .form .form__title {
+    margin-bottom: 4px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section__title {
+    font-family: "Play";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+}
 
 .form__col {
   -webkit-box-flex: 1;
@@ -706,6 +768,11 @@ address {
 }
 .form__col:last-child {
   margin-right: 0rem;
+}
+@media screen and (max-width: 768px) {
+  .form__col {
+    margin-right: 0rem;
+  }
 }
 
 .form__row {
@@ -740,6 +807,15 @@ address {
   font-size: 0.7777777778rem;
   line-height: 1.1111111111rem;
 }
+@media screen and (max-width: 768px) {
+  .form__input {
+    height: 2rem;
+    padding-top: 0.6666666667rem;
+    padding-bottom: 0.9444444444rem;
+    padding-left: 0.7222222222rem;
+    padding-right: 0.7222222222rem;
+  }
+}
 .form__input:focus {
   border-color: #E01F3D;
   outline: none;
@@ -747,6 +823,11 @@ address {
 .form__input--textarea {
   height: 8.4444444444rem;
   resize: none;
+}
+@media screen and (max-width: 768px) {
+  .form__input--textarea {
+    height: 4.8888888889rem;
+  }
 }
 
 .form__title {
@@ -775,9 +856,14 @@ address {
 .form__controls:last-child {
   margin-top: 0.1111111111rem;
 }
+@media screen and (max-width: 768px) {
+  .form__controls {
+    margin-top: 1.1111111111rem;
+  }
+}
 
 .radio__checkbox {
-  margin-top: -0.8333333333rem;
+  margin-top: 0.2777777778rem;
 }
 
 .radio {
@@ -869,9 +955,26 @@ button {
   color: #FFFFFF;
   padding-left: 0;
 }
+@media screen and (max-width: 768px) {
+  .btn__theme--transparent {
+    color: #E01F3D;
+    margin-left: 1.5555555556rem;
+  }
+}
 
 .form__buttons {
   margin-top: 2.4444444444rem;
+}
+@media screen and (max-width: 768px) {
+  .form__buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 1.9444444444rem;
+  }
 }
 
 html {

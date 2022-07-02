@@ -1,4 +1,7 @@
 .radio {
+    @include tablets {
+        // margin-top: 2px;
+    }
     display: flex;
     cursor: pointer;
     user-select: none;

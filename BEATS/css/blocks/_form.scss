@@ -1,5 +1,27 @@
 .form {
     display: flex;
+    @include tablets {
+        flex-direction: column;
+        padding: 0 120px;
+    }
+    .form__title {
+        @include tablets{
+            margin-bottom: 4px;
+        }
+    }
+}
+
+.section__title {
+    @include tablets {
+        font-family: 'Play';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 52px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
 }
 
 .form__col {
@@ -7,6 +29,9 @@
     margin-right: rem(20px);
     &:last-child {
         margin-right: rem(0px);
+    }
+    @include tablets {
+        margin-right: rem(0px);    
     }
 }
 
@@ -21,9 +46,17 @@
     &:last-child {
         margin-right: rem(0px);
     }
+
 }
 
 .form__input {
+    @include tablets{
+        height: rem(36px);
+        padding-top: rem(12px);
+        padding-bottom: rem(17px);
+        padding-left: rem(13px);
+        padding-right: rem(13px);
+    }
     width: 100%;
     border: solid rem(3px) transparent;    
     
@@ -48,7 +81,14 @@
     &--textarea {
         height: rem(152px);
         resize: none;
+
+        @include tablets{
+            height: rem(88px);
+            // padding-top: rem(-3px);
+        }
+
     }
+
 }
 
 .form__title {
@@ -74,9 +114,13 @@
     &:last-child {
         margin-top: rem(2px);  
     }
+    @include tablets {
+        margin-top: rem(20px);
+    }
 }
 
 .radio__checkbox {
-    margin-top: rem(-15px);
+    margin-top: rem(5px);
 
 }
+

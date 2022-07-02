@@ -12,6 +12,29 @@
     }
 }
 
+.rewiew__title {
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    @include tablets {
+        display: flex;
+        justify-content: center;
+        font-family: 'Play';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 52px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+    }
+}
+
 .rewiews__display {
     min-width: rem(939px);
     margin-top: rem(40px);
@@ -62,6 +85,13 @@
                 @include tablets {
                     align-self: center;
                     text-align: center;
+                    font-family: 'Play';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 28px;
+                    color: #292929;
+
                 }
             }
             .rewiews__text {

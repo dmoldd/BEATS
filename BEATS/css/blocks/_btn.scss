@@ -24,9 +24,19 @@
     line-height: rem(19px);
     color: #FFFFFF;
     padding-left: 0;
+    @include tablets {
+        color: #E01F3D;
+        margin-left: rem(28px);
+    }
 
 }
 
 .form__buttons {
     margin-top: rem(44px);
+    @include tablets {
+        display: flex;
+        justify-content: center;
+            margin-top: rem(35px);
+    }
 }
+
