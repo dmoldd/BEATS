@@ -48,6 +48,10 @@
             line-height: rem(52px);
             color: #292929;
         }
+        @include minitablets {
+            font-size: rem(32px);
+            line-height: 36px;
+        }
     }
     .hero__title-desc {
         margin-top: rem(22px);
@@ -63,6 +67,12 @@
             max-width: 100%;
             margin-top: rem(8px);
         }
+        @include minitablets {
+            font-weight: 400;
+            font-size: rem(18px);
+            line-height: rem(20px);  
+        }
+
     }
     .button {
         margin-top: rem(33px);
@@ -84,8 +94,10 @@
 }
 
 .hero__container {
-    background: url('../img/hello/headphones.png') left 80% center no-repeat;
+    background: url('../img/hello/headphones.png') left 90% center no-repeat;
+    background-size: 40vw;
     @include tablets {
         background: none;
+        background-size: none;
     }
 }

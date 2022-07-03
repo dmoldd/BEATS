@@ -13,3 +13,8 @@
         @content;
     }
 }
+@mixin minitablets {
+    @media screen and (max-width: $minitablets) {
+        @content;
+    }
+}

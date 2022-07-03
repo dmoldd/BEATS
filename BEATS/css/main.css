@@ -361,6 +361,12 @@ address {
     color: #292929;
   }
 }
+@media screen and (max-width: 626px) {
+  .hero__title-section .hero__main-title {
+    font-size: 1.7777777778rem;
+    line-height: 36px;
+  }
+}
 .hero__title-section .hero__title-desc {
   margin-top: 1.2222222222rem;
   max-width: 17.8333333333rem;
@@ -375,6 +381,13 @@ address {
   .hero__title-section .hero__title-desc {
     max-width: 100%;
     margin-top: 0.4444444444rem;
+  }
+}
+@media screen and (max-width: 626px) {
+  .hero__title-section .hero__title-desc {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.1111111111rem;
   }
 }
 .hero__title-section .button {
@@ -397,11 +410,13 @@ address {
 }
 
 .hero__container {
-  background: url("../img/hello/headphones.png") left 80% center no-repeat;
+  background: url("../img/hello/headphones.png") left 90% center no-repeat;
+  background-size: 40vw;
 }
 @media screen and (max-width: 768px) {
   .hero__container {
     background: none;
+    background-size: none;
   }
 }
 
