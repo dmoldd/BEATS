@@ -877,6 +877,24 @@ address {
     padding: 0 120px;
   }
 }
+@media screen and (max-width: 626px) {
+  .form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 45px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 0px;
+  }
+}
 @media screen and (max-width: 768px) {
   .form .form__title {
     margin-bottom: 4px;
@@ -884,12 +902,48 @@ address {
 }
 
 @media screen and (max-width: 768px) {
-  .section__title {
+  .order__title {
     font-family: "Play";
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 52px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+}
+@media screen and (max-width: 626px) {
+  .order__title {
+    font-family: "Play";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+}
+@media screen and (max-width: 480px) {
+  .order__title {
+    font-family: "Play";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -995,6 +1049,16 @@ address {
 @media screen and (max-width: 768px) {
   .form__controls {
     margin-top: 1.1111111111rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .form__controls {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 

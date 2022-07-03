@@ -4,6 +4,14 @@
         flex-direction: column;
         padding: 0 120px;
     }
+    @include minitablets {
+        flex-direction: column;
+        padding: 0 45px;
+    }
+    @include phones {
+        flex-direction: column;
+        padding: 0 0px;
+    }
     .form__title {
         @include tablets{
             margin-bottom: 4px;
@@ -11,7 +19,7 @@
     }
 }
 
-.section__title {
+.order__title {
     @include tablets {
         font-family: 'Play';
         font-style: normal;
@@ -22,6 +30,33 @@
         text-transform: uppercase;
         color: #FFFFFF;
     }
+
+    @include minitablets {
+        font-family: 'Play';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 36px;
+        display: flex;
+        align-self: center;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    @include phones {
+        font-family: 'Play';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 36px;
+        display: flex;
+        align-self: center;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
 }
 
 .form__col {
@@ -117,10 +152,16 @@
     @include tablets {
         margin-top: rem(20px);
     }
+    @include phones {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .radio__checkbox {
     margin-top: rem(5px);
 
 }
+
+
 
