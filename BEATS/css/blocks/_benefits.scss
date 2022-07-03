@@ -42,6 +42,18 @@
     
         .headline__title {
             max-height: rem(52px);
+
+            @include minitablets {
+                font-family: 'Play';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 36px;
+                align-items: flex-end;
+                text-align: center;
+                text-transform: uppercase;
+                color: #000000;
+            }
         }    
         
         .headline__subtitle {
@@ -62,17 +74,28 @@
     .benefits__items {
         display: flex;
         justify-content: center;
+        @include minitablets {
+            display: flex;
+            flex-direction: column;
+        }
         .between {
             display: flex;
             flex-direction: column;
             margin-top: rem(52px);
             height: 100%;
             width: 100%;
+            @include minitablets {
+                display: none;
+            }
         }
         .benefits__item {
             display: flex;
             flex-direction: column;
             align-items: center;
+            @include minitablets {
+                display: flex;
+                flex-direction: row;
+            }
             // height: min-content;
     
             .benefit__image {
@@ -83,10 +106,24 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                @include minitablets {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    margin-left: rem(13px);
+                }
                 .benefit__title {
                     margin-top: rem(33px);
                     width: rem(260px);
                     text-align: center;
+                    @include tablets {
+                        margin-top: rem(20px); 
+                        // width: 100vw / 3 - 5vw;
+                    }
+                    @include minitablets {
+                        align-self:flex-start;
+                        text-align: start;
+                    }
                 }
                 .benefit__description {
                     max-width: rem(250px);
@@ -101,6 +138,18 @@
                     color: #666666;
                     @include tablets {
                         margin-top: rem(20px); 
+                        width: 100vw / 3 - 10vw;
+                    }
+                    @include minitablets {
+                        max-width: none;
+                        width: 60vw;
+                        text-align: start;
+                        font-family: 'Play';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #666666;
                     }
                 }
             }
