@@ -411,7 +411,7 @@ address {
 
 .hero__container {
   background: url("../img/hello/headphones.png") left 90% center no-repeat;
-  background-size: 40vw;
+  background-size: 40%;
 }
 @media screen and (max-width: 768px) {
   .hero__container {

@@ -95,7 +95,7 @@
 
 .hero__container {
     background: url('../img/hello/headphones.png') left 90% center no-repeat;
-    background-size: 40vw;
+    background-size: 40%;
     @include tablets {
         background: none;
         background-size: none;
