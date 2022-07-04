@@ -1,6 +1,12 @@
 .hero {
     padding-top: rem(24px);
     background-color: $blue;
+    background: url('../img/hello/headphones.png') left 90% center no-repeat;
+    background-size: 40%;
+    @include tablets {
+        background: none;
+        background-size: none;
+    }
     min-height: rem(650px);
     height: 100vh;
 
@@ -94,10 +100,5 @@
 }
 
 .hero__container {
-    background: url('../img/hello/headphones.png') left 90% center no-repeat;
-    background-size: 40%;
-    @include tablets {
-        background: none;
-        background-size: none;
-    }
+
 }

@@ -308,8 +308,16 @@ address {
 .hero {
   padding-top: 1.3333333333rem;
   background-color: #F5F5F5;
+  background: url("../img/hello/headphones.png") left 90% center no-repeat;
+  background-size: 40%;
   min-height: 36.1111111111rem;
   height: 100vh;
+}
+@media screen and (max-width: 768px) {
+  .hero {
+    background: none;
+    background-size: none;
+  }
 }
 @media screen and (max-width: 768px) {
   .hero:before, .hero:after {
@@ -406,17 +414,6 @@ address {
 @media screen and (max-width: 768px) {
   .hero__icons-section {
     display: none;
-  }
-}
-
-.hero__container {
-  background: url("../img/hello/headphones.png") left 90% center no-repeat;
-  background-size: 40%;
-}
-@media screen and (max-width: 768px) {
-  .hero__container {
-    background: none;
-    background-size: none;
   }
 }
 
