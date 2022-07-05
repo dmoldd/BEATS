@@ -8,10 +8,28 @@
 
     .contacts__items {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
+        margin-top: rem(59px);
+
+        @include tablets {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: rem(42px);
+        }
+
+        @include minitablets {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: rem(42px);
+        }
 
         @include phones {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             margin-top: rem(42px);
         }
         .contacts__item {
