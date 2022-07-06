@@ -1202,10 +1202,13 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
   margin-top: 3.2777777778rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 @media screen and (max-width: 768px) {
   .contacts .contacts__items {
@@ -1254,6 +1257,25 @@ button {
 }
 .contacts .contacts__items .contacts__item {
   padding-top: 0.7222222222rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.contacts .contacts__items .contacts__item .contacts__item--name {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #292929;
+  padding-top: 1.5555555556rem;
 }
 @media screen and (max-width: 480px) {
   .contacts .contacts__items .contacts__item .contacts__item--name {
@@ -1270,6 +1292,31 @@ button {
             align-items: flex-end;
     color: #000000;
   }
+}
+.contacts .contacts__items .contacts__item .contacts__item--avatar {
+  width: 12.2222222222rem;
+  height: 16.1666666667rem;
+}
+.contacts .contacts__items .contacts__item .contacts__item--prof {
+  padding-top: 20px;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #292929;
+}
+.contacts .contacts__items .contacts__item .contacts__item--desc {
+  max-width: 12.2222222222rem;
+  padding-top: 7px;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #666666;
 }
 .contacts .contacts__title {
   font-family: "Play";

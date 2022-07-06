@@ -9,8 +9,9 @@
     .contacts__items {
         display: flex;
         flex-direction: row;
-        align-items: center;
+        align-items: baseline;
         margin-top: rem(59px);
+        justify-content: space-between;
 
         @include tablets {
             display: flex;
@@ -34,7 +35,18 @@
         }
         .contacts__item {
             padding-top: rem(13px);
+            display: flex;
+            flex-direction: column;
+
             .contacts__item--name {
+                align-self: center;
+                font-family: 'Play';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 21px;
+                color: #292929;
+                padding-top: rem(28px);
                 @include phones {
                     font-family: 'Alegreya Sans';
                     font-style: normal;
@@ -46,6 +58,31 @@
                     color: #000000;
                 }
 
+            }
+            .contacts__item--avatar {
+                width: rem(220px);
+                height: rem(291px);
+            }
+            .contacts__item--prof {
+                padding-top: 20px;
+                font-family: 'Play';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                text-align: center;
+                color: #292929;
+            }
+            .contacts__item--desc {
+                max-width: rem(220px);
+                padding-top: 7px;
+                font-family: 'Play';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                text-align: center;
+                color: #666666;
             }
         }
         
