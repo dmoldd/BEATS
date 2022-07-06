@@ -13,6 +13,13 @@
         margin-top: rem(59px);
         justify-content: space-between;
 
+        @media screen and (max-width: 1060px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
         @include tablets {
             display: flex;
             flex-direction: column;
@@ -62,6 +69,17 @@
             .contacts__item--avatar {
                 width: rem(220px);
                 height: rem(291px);
+                min-width: rem(220px);
+                min-height: rem(291px);
+
+            }
+
+            .alla,
+            .boris,
+            .kirill {
+                @media screen and (max-width: 1060px) {
+                    display: none;
+                }
             }
             .contacts__item--prof {
                 padding-top: 20px;
@@ -72,6 +90,17 @@
                 line-height: 19px;
                 text-align: center;
                 color: #292929;
+                @media screen and (max-width: 1060px) {
+                    padding-top: 26px;
+                    font-family: 'Play';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 21px;
+                    text-align: center;
+                    color: #000000;
+                }
+
             }
             .contacts__item--desc {
                 max-width: rem(220px);
@@ -83,6 +112,15 @@
                 line-height: 19px;
                 text-align: center;
                 color: #666666;
+                @media screen and (max-width: 1060px) {
+                    font-family: 'Play';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 21px;
+                    text-align: center;
+                    color: #000000;
+                }
             }
         }
         
