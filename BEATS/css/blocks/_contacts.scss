@@ -6,6 +6,52 @@
     min-height: rem(650px);
     height: 100vh;
 
+    .contacts__title {
+        font-family: 'Play';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 52px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+        @include tablets {
+            font-family: 'Play';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 52px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #000000;
+        }
+    
+        @include minitablets {
+            font-family: 'Play';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 36px;
+            align-self: center;
+            text-align: center;
+            text-transform: uppercase;
+            color: #000000;
+        }
+    
+        @include phones {
+            font-family: 'Play';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 36px;
+            align-self: center;
+            text-align: center;
+            text-transform: uppercase;
+            color: #000000;
+        }
+    
+    }
+
     .contacts__items {
         display: flex;
         flex-direction: row;
@@ -16,34 +62,38 @@
         @media screen and (max-width: 1060px) {
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
+            margin-top: rem(40px);
         }
 
         @include tablets {
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-top: rem(42px);
         }
 
         @include minitablets {
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-top: rem(42px);
         }
 
         @include phones {
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-top: rem(42px);
         }
+
+
+        
         .contacts__item {
             padding-top: rem(13px);
             display: flex;
             flex-direction: column;
+
+            @media screen and (max-width: 1060px) {
+                padding-top: 0;
+            }
 
             .contacts__item--name {
                 align-self: center;
@@ -54,13 +104,15 @@
                 line-height: 21px;
                 color: #292929;
                 padding-top: rem(28px);
+                @media screen and (max-width: 1060px) {
+                    padding-top: 0;
+                }
                 @include phones {
                     font-family: 'Alegreya Sans';
                     font-style: normal;
                     font-weight: 700;
                     font-size: rem(21px);
                     line-height: rem(25px);
-                    display: flex;
                     align-items: flex-end;
                     color: #000000;
                 }
@@ -81,6 +133,8 @@
                     display: none;
                 }
             }
+
+
             .contacts__item--prof {
                 padding-top: 20px;
                 font-family: 'Play';
@@ -115,11 +169,11 @@
                 @media screen and (max-width: 1060px) {
                     font-family: 'Play';
                     font-style: normal;
-                    font-weight: 700;
-                    font-size: 18px;
-                    line-height: 21px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
                     text-align: center;
-                    color: #000000;
+                    color: #666666;
                 }
             }
         }
@@ -128,53 +182,7 @@
 
     }
 
-    .contacts__title {
-        font-family: 'Play';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 48px;
-        line-height: 52px;
-        text-align: center;
-        text-transform: uppercase;
-        color: #000000;
-        @include tablets {
-            font-family: 'Play';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 48px;
-            line-height: 52px;
-            text-align: center;
-            text-transform: uppercase;
-            color: #000000;
-        }
     
-        @include minitablets {
-            font-family: 'Play';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 32px;
-            line-height: 36px;
-            display: flex;
-            align-self: center;
-            text-align: center;
-            text-transform: uppercase;
-            color: #000000;
-        }
-    
-        @include phones {
-            font-family: 'Play';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 32px;
-            line-height: 36px;
-            display: flex;
-            align-self: center;
-            text-align: center;
-            text-transform: uppercase;
-            color: #000000;
-        }
-    
-    }
     .contact {
 
     }

@@ -1194,6 +1194,58 @@ button {
   min-height: 36.1111111111rem;
   height: 100vh;
 }
+.contacts .contacts__title {
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 52px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+@media screen and (max-width: 768px) {
+  .contacts .contacts__title {
+    font-family: "Play";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+  }
+}
+@media screen and (max-width: 626px) {
+  .contacts .contacts__title {
+    font-family: "Play";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+  }
+}
+@media screen and (max-width: 480px) {
+  .contacts .contacts__title {
+    font-family: "Play";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+  }
+}
 .contacts .contacts__items {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1219,12 +1271,10 @@ button {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-top: 2.2222222222rem;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1239,7 +1289,6 @@ button {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 2.3333333333rem;
   }
 }
 @media screen and (max-width: 626px) {
@@ -1254,7 +1303,6 @@ button {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 2.3333333333rem;
   }
 }
 @media screen and (max-width: 480px) {
@@ -1269,7 +1317,6 @@ button {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 2.3333333333rem;
   }
 }
 .contacts .contacts__items .contacts__item {
@@ -1281,6 +1328,11 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+@media screen and (max-width: 1060px) {
+  .contacts .contacts__items .contacts__item {
+    padding-top: 0;
+  }
 }
 .contacts .contacts__items .contacts__item .contacts__item--name {
   -ms-flex-item-align: center;
@@ -1294,6 +1346,11 @@ button {
   color: #292929;
   padding-top: 1.5555555556rem;
 }
+@media screen and (max-width: 1060px) {
+  .contacts .contacts__items .contacts__item .contacts__item--name {
+    padding-top: 0;
+  }
+}
 @media screen and (max-width: 480px) {
   .contacts .contacts__items .contacts__item .contacts__item--name {
     font-family: "Alegreya Sans";
@@ -1301,9 +1358,6 @@ button {
     font-weight: 700;
     font-size: 1.1666666667rem;
     line-height: 1.3888888889rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
@@ -1360,69 +1414,11 @@ button {
   .contacts .contacts__items .contacts__item .contacts__item--desc {
     font-family: "Play";
     font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
     text-align: center;
-    color: #000000;
-  }
-}
-.contacts .contacts__title {
-  font-family: "Play";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 52px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #000000;
-}
-@media screen and (max-width: 768px) {
-  .contacts .contacts__title {
-    font-family: "Play";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 52px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #000000;
-  }
-}
-@media screen and (max-width: 626px) {
-  .contacts .contacts__title {
-    font-family: "Play";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 36px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    text-align: center;
-    text-transform: uppercase;
-    color: #000000;
-  }
-}
-@media screen and (max-width: 480px) {
-  .contacts .contacts__title {
-    font-family: "Play";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 36px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    text-align: center;
-    text-transform: uppercase;
-    color: #000000;
+    color: #666666;
   }
 }
 html {
