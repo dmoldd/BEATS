@@ -1,8 +1,11 @@
 .hero {
     padding-top: rem(24px);
     background-color: $blue;
-    background: url('../img/hello/headphones.png') left 90% center no-repeat;
-    background-size: 40%;
+
+    background: url('../img/hello/headphones.png') no-repeat;
+    background-size: 60% auto ; 
+    background-position: right center;
+    
     @include tablets {
         background: none;
         background-size: none;
