@@ -1326,6 +1326,9 @@ button {
   }
 }
 .team .team__items .team__item .team__item--name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -1336,6 +1339,9 @@ button {
   line-height: 21px;
   color: #292929;
   padding-top: 1.5555555556rem;
+}
+.team .team__items .team__item .team__item--name .team__item--spoiler {
+  padding-left: 4px;
 }
 @media screen and (max-width: 1060px) {
   .team .team__items .team__item .team__item--name {

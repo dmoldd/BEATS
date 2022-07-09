@@ -104,6 +104,8 @@
             }
 
             .team__item--name {
+                display: flex;
+
                 align-self: center;
                 font-family: 'Play';
                 font-style: normal;
@@ -112,6 +114,9 @@
                 line-height: 21px;
                 color: #292929;
                 padding-top: rem(28px);
+                .team__item--spoiler {
+                    padding-left: 4px;
+                }
                 @media screen and (max-width: 1060px) {
                     padding-top: 0;
                 }
