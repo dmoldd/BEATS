@@ -261,9 +261,6 @@ address {
 .hero {
   padding-top: 1.3333333333rem;
   background-color: #F5F5F5;
-  background: url("../img/hello/headphones.png") no-repeat;
-  background-size: 60% auto;
-  background-position: right center;
   min-height: 36.1111111111rem;
   height: 100vh;
 }
@@ -275,6 +272,26 @@ address {
 }
 @media screen and (max-width: 768px) {
   .hero:before, .hero:after {
+    display: none;
+  }
+}
+
+.hero__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.hero__logo--fullhd {
+  position: relative;
+  top: 80px;
+}
+@media screen and (max-width: 768px) {
+  .hero__logo--fullhd {
     display: none;
   }
 }

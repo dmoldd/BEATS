@@ -2,9 +2,9 @@
     padding-top: rem(24px);
     background-color: $blue;
 
-    background: url('../img/hello/headphones.png') no-repeat;
-    background-size: 60% auto ; 
-    background-position: right center;
+    // background: url('../img/hello/headphones.png') no-repeat;
+    // background-size: 60% auto ; 
+    // background-position: right center;
     
     @include tablets {
         background: none;
@@ -21,6 +21,20 @@
         }
     }
 
+}
+
+.hero__row {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero__logo--fullhd {
+    position: relative;
+    top: 80px;
+
+    @include tablets {
+        display: none;
+    }
 }
 
 .hero__logo--768 {
