@@ -19,6 +19,14 @@
 
 }
 
+.logo__container {
+    width: 40px;
+    height: 40px;
+    @include tablets {
+        padding: 5px;
+    }
+}
+
 .hero__row {
     display: flex;
     flex-direction: row;
