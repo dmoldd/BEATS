@@ -168,8 +168,8 @@ address {
 }
 
 .logo {
-  width: 2.2222222222rem;
-  height: 2.2222222222rem;
+  min-width: 2.2222222222rem;
+  min-height: 2.2222222222rem;
 }
 
 /* ПОДКЛЮЧИЛ СТИЛИ ХЭДЕРА */
