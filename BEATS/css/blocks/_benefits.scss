@@ -1,3 +1,12 @@
+.between__svg {
+    display: flex;
+    max-height: 20px;
+    max-width: 68px;
+    @media screen and (max-width: 932px) {
+        display: none;
+      } 
+}
+
 .benefits {
     min-height: rem(650px);
     height: 100vh;
@@ -164,3 +173,7 @@
 }
 
 
+.circus__svg {
+    height: 125px;
+    width: 125px;
+}

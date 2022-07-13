@@ -172,6 +172,12 @@ address {
   height: 2.2222222222rem;
 }
 
+.phone__svg {
+  width: 0.6666666667rem;
+  height: 0.6666666667rem;
+  margin-right: 0.3333333333rem;
+}
+
 /* ПОДКЛЮЧИЛ СТИЛИ ХЭДЕРА */
 /* ПОДКЛЮЧИЛ СТИЛИ ФУТЕРА*/
 /* ПОДКЛЮЧИЛ СТИЛИ БЛОКА ПРИВЕТСТВИЯ */
@@ -404,6 +410,22 @@ address {
   }
 }
 
+.ear__svg {
+  height: 39px;
+  width: 39px;
+}
+
+.fast__svg {
+  width: 31px;
+  height: 40px;
+}
+
+.battery-small__svg {
+  width: 40px;
+  height: 70px;
+  margin-top: -15px;
+}
+
 .features {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -424,6 +446,19 @@ address {
 }
 .features .features__item .feature__text:nth-child(2) {
   max-width: 6.1111111111rem;
+}
+
+.between__svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-height: 20px;
+  max-width: 68px;
+}
+@media screen and (max-width: 932px) {
+  .between__svg {
+    display: none;
+  }
 }
 
 .benefits {
@@ -643,6 +678,11 @@ address {
 }
 .benefits ul {
   margin-top: 3.5rem;
+}
+
+.circus__svg {
+  height: 125px;
+  width: 125px;
 }
 
 .rewiews {
