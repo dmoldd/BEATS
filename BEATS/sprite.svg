@@ -104,27 +104,13 @@
 
 
 <!-- 
-<svg class="icon">
-  <use xlink:href="./sprite.svg#between"></use>
-</svg>
+1
 <svg class="icon">
   <use xlink:href="./sprite.svg#checkbox"></use>
 </svg>
-<svg class="icon">
-  <use xlink:href="./sprite.svg#clock"></use>
-</svg>
-<svg class="icon">
-  <use xlink:href="./sprite.svg#dynamic"></use>
-</svg>
-<svg class="icon">
-  <use xlink:href="./sprite.svg#ear"></use>
-</svg>
-<svg class="icon">
-  <use xlink:href="./sprite.svg#fast"></use>
-</svg>
-<svg class="icon">
-  <use xlink:href="./sprite.svg#logo"></use>
-</svg>
+
+
+
 <svg class="icon">
   <use xlink:href="./sprite.svg#phone"></use>
 </svg>
@@ -140,11 +126,7 @@
 <svg class="icon">
   <use xlink:href="./sprite.svg#tr_up"></use>
 </svg>
-<svg class="icon">
-  <use xlink:href="./sprite.svg#battery_big"></use>
-</svg>
-<svg class="icon">
-  <use xlink:href="./sprite.svg#battery_small"></use>
-</svg> 
+
+
 
 -->
